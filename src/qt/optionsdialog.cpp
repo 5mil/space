@@ -276,7 +276,7 @@ DisplayOptionsPage::DisplayOptionsPage(QWidget *parent):
     unit->setModel(new BitcoinUnits(this));
     unit->setToolTip(tr("Choose the default subdivision unit to show in the interface, and when sending coins"));
 
-    unit_label->setBALLSdy(unit);
+    unit_label->setbuddy(unit);
     unit_hbox->addWidget(unit);
 
     layout->addLayout(unit_hbox);
