@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2013 The BudMax developers
+// Copyright (c) 2011-2013 The spaceballs developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -525,7 +525,7 @@ public:
 
     bool IsCoinStake() const
     {
-        // BudMax: the coin stake transaction is marked with the first output empty
+        // spaceballs: the coin stake transaction is marked with the first output empty
         return (vin.size() > 0 && (!vin[0].prevout.IsNull()) && vout.size() >= 2 && vout[0].IsEmpty());
     }
 
@@ -745,7 +745,7 @@ public:
     bool ClientConnectInputs();
     bool CheckTransaction() const;
     bool AcceptToMemoryPool(CTxDB& txdb, bool fCheckInputs=true, bool* pfMissingInputs=NULL);
-    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // BudMax: get transaction coin age
+    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // spaceballs: get transaction coin age
 
 protected:
     const CTxOut& GetOutputFor(const CTxIn& input, const MapPrevTx& inputs) const;
@@ -889,7 +889,7 @@ public:
     // network and disk
     std::vector<CTransaction> vtx;
 
-    // BudMax: block signature - signed by coin base txout[0]'s owner
+    // spaceballs: block signature - signed by coin base txout[0]'s owner
     std::vector<unsigned char> vchBlockSig;
 
     // memory only
@@ -958,7 +958,7 @@ public:
 
     void UpdateTime(const CBlockIndex* pindexPrev);
 
-    // BudMax: two types of block: proof-of-work or proof-of-stake
+    // spaceballs: two types of block: proof-of-work or proof-of-stake
     bool IsProofOfStake() const
     {
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
@@ -974,7 +974,7 @@ public:
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
     }
 
-    // BudMax: get max transaction timestamp
+    // spaceballs: get max transaction timestamp
     int64 GetMaxTransactionTime() const
     {
         int64 maxTransactionTime = 0;
@@ -1125,10 +1125,10 @@ public:
     bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos);
     bool CheckBlock() const;
     bool AcceptBlock();
-    bool GetCoinAge(uint64& nCoinAge) const; // BudMax: calculate total coin age spent in block
+    bool GetCoinAge(uint64& nCoinAge) const; // spaceballs: calculate total coin age spent in block
     bool SignBlock(const CKeyStore& keystore);
     bool CheckBlockSignature() const;
-    unsigned int GetStakeEntropyBit() const; // BudMax: entropy bit for stake modifier if chosen by modifier
+    unsigned int GetStakeEntropyBit() const; // spaceballs: entropy bit for stake modifier if chosen by modifier
 
 private:
     bool SetBestChainInner(CTxDB& txdb, CBlockIndex *pindexNew);
@@ -1154,12 +1154,12 @@ public:
     CBlockIndex* pnext;
     unsigned int nFile;
     unsigned int nBlockPos;
-    CBigNum bnChainTrust; // BudMax: trust score of block chain
+    CBigNum bnChainTrust; // spaceballs: trust score of block chain
     int nHeight;
     int64 nMint;
     int64 nMoneySupply;
 
-    unsigned int nFlags;  // BudMax: block index flags
+    unsigned int nFlags;  // spaceballs: block index flags
     enum  
     {
         BLOCK_PROOF_OF_STAKE = (1 << 0), // is proof-of-stake block

@@ -1,9 +1,9 @@
 
-BudMax Official Development Repo
+spaceballs Official Development Repo
 ==================================
 
-### What is BudMax (BUD)?
-[BudMax](http://budmax.pw) (ticker BUD),  
+### What is spaceballs (BUD)?
+[spaceballs](http://spaceballs.pw) (ticker BUD),  
 [proof-of-stake consensus](http://peercoin.net/bin/peercoin-paper.pdf) 
 [proof-of-stake](http://peercoin.net/bin/peercoin-paper.pdf)
 [proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) 

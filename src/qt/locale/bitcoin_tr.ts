@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About BudMax</source>
-        <translation>BudMax hakkında</translation>
+        <source>About spaceballs</source>
+        <translation>spaceballs hakkında</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BudMax&lt;/b&gt; sürüm</translation>
+        <source>&lt;b&gt;spaceballs&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;spaceballs&lt;/b&gt; sürüm</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 BudMax Developers
+        <source>Copyright © 2011-2013 spaceballs Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Telif hakkı © 2011-2013 BudMax geliştiricileri
+        <translation>Telif hakkı © 2011-2013 spaceballs geliştiricileri
 
 Bu yazılım deneme safhasındadır.
 
@@ -39,8 +39,8 @@ Bu ürün OpenSSL projesi tarafından OpenSSL Toolkit (http://www.openssl.org/) 
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödemeleri almak için BudMax adresleridir.  Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
+        <source>These are your spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödemeleri almak için spaceballs adresleridir.  Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -226,7 +226,7 @@ Bu ürün OpenSSL projesi tarafından OpenSSL Toolkit (http://www.openssl.org/) 
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR spaceballsS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>UYARI: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!
 Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
@@ -239,8 +239,8 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için BudMax şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BudMaxlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spaceballss from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için spaceballs şimdi kapanacaktır. Cüzdanınızı şifrelemenin, spaceballslerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -291,11 +291,11 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
 </context>
 <context>
-    <name>BudMaxGUI</name>
+    <name>spaceballsGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>BudMax Wallet</source>
-        <translation>BudMax cüzdanı</translation>
+        <source>spaceballs Wallet</source>
+        <translation>spaceballs cüzdanı</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -355,8 +355,8 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a BudMax address</source>
-        <translation>Bir BudMax adresine para (BudMax) yollar</translation>
+        <source>Send coins to a spaceballs address</source>
+        <translation>Bir spaceballs adresine para (spaceballs) yollar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -385,8 +385,8 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about BudMax</source>
-        <translation>BudMax hakkında bilgi gösterir</translation>
+        <source>Show information about spaceballs</source>
+        <translation>spaceballs hakkında bilgi gösterir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -405,18 +405,18 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for BudMax</source>
-        <translation>BudMax seçeneklerinin yapılandırmasını değiştirir</translation>
+        <source>Modify configuration options for spaceballs</source>
+        <translation>spaceballs seçeneklerinin yapılandırmasını değiştirir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;BudMax</source>
-        <translation>&amp;BudMax&apos;i aç</translation>
+        <source>Open &amp;spaceballs</source>
+        <translation>&amp;spaceballs&apos;i aç</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the BudMax window</source>
-        <translation>BudMax penceresini gösterir</translation>
+        <source>Show the spaceballs window</source>
+        <translation>spaceballs penceresini gösterir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -490,13 +490,13 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>BudMax-qt</source>
-        <translation>BudMax-qt</translation>
+        <source>spaceballs-qt</source>
+        <translation>spaceballs-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to BudMax network</source>
-        <translation><numerusform>BudMax şebekesine %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to spaceballs network</source>
+        <translation><numerusform>spaceballs şebekesine %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -679,8 +679,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir BudMax adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid spaceballs address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir spaceballs adresi değildir.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -697,13 +697,13 @@ Adres: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start BudMax on window system startup</source>
-        <translation>BudMax&apos;i pencere sistemi ile &amp;başlat</translation>
+        <source>&amp;Start spaceballs on window system startup</source>
+        <translation>spaceballs&apos;i pencere sistemi ile &amp;başlat</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start BudMax after the computer is turned on</source>
-        <translation>BudMax&apos;i bilgisayar başlatıldığında başlatır</translation>
+        <source>Automatically start spaceballs after the computer is turned on</source>
+        <translation>spaceballs&apos;i bilgisayar başlatıldığında başlatır</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -722,8 +722,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide BudMax istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide spaceballs istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -743,7 +743,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>BudMax şebekesine SOCKS4 vekil sunucusu vasıtasıyla bağlanır (mesela Tor ile bağlanıldığında)</translation>
+        <translation>spaceballs şebekesine SOCKS4 vekil sunucusu vasıtasıyla bağlanır (mesela Tor ile bağlanıldığında)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1183,8 +1183,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>BudMax adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>spaceballs adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1632,11 +1632,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>BudMax-core</name>
+    <name>spaceballs-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>BudMax version</source>
-        <translation>BudMax sürümü</translation>
+        <source>spaceballs version</source>
+        <translation>spaceballs sürümü</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1645,8 +1645,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or BudMaxd</source>
-        <translation>-server ya da BudMaxd&apos;ye komut gönder</translation>
+        <source>Send command to -server or spaceballsd</source>
+        <translation>-server ya da spaceballsd&apos;ye komut gönder</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1665,13 +1665,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: BudMax.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: BudMax.conf)</translation>
+        <source>Specify configuration file (default: spaceballs.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: spaceballs.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: BudMaxd.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: BudMaxd.pid)</translation>
+        <source>Specify pid file (default: spaceballsd.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: spaceballsd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1846,9 +1846,9 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
+SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
         <translation>
-SSL seçenekleri: (SSL kurulum bilgisi için BudMax vikisine bakınız)</translation>
+SSL seçenekleri: (SSL kurulum bilgisi için spaceballs vikisine bakınız)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1877,8 +1877,8 @@ SSL seçenekleri: (SSL kurulum bilgisi için BudMax vikisine bakınız)</transla
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi.  BudMax muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s.  spaceballs is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi.  spaceballs muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1902,13 +1902,13 @@ SSL seçenekleri: (SSL kurulum bilgisi için BudMax vikisine bakınız)</transla
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir BudMax sürümüne ihtiyacı var</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of spaceballs</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir spaceballs sürümüne ihtiyacı var</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için BudMax&apos;i yeniden başlatınız</translation>
+        <source>Wallet needed to be rewritten: restart spaceballs to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için spaceballs&apos;i yeniden başlatınız</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1962,13 +1962,13 @@ SSL seçenekleri: (SSL kurulum bilgisi için BudMax vikisine bakınız)</transla
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
-        <translation>%d sayılı porta bu bilgisayarda bağlanılamadı.  BudMax muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Unable to bind to port %d on this computer.  spaceballs is probably already running.</source>
+        <translation>%d sayılı porta bu bilgisayarda bağlanılamadı.  spaceballs muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz.  Saatiniz doğru değilse BudMax gerektiği gibi çalışamaz.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong spaceballs will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz.  Saatiniz doğru değilse spaceballs gerektiği gibi çalışamaz.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

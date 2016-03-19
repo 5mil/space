@@ -4,25 +4,25 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About BudMax</source>
+        <source>About spaceballs</source>
         <translation>در مورد بیتکویین 
 </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
+        <source>&lt;b&gt;spaceballs&lt;/b&gt; version</source>
         <translation>نسخه </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 BudMax Developers
+        <source>Copyright © 2011-2013 spaceballs Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>کپی رایت © 2012-2009 BudMax Developers
+        <translation>کپی رایت © 2012-2009 spaceballs Developers
 
 این یک نرم‌افزار آزمایشی است.
 
@@ -40,7 +40,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>ااینجا آدرسهای بیتکویین هستند برای در یافت پر داختها. شما می توانید از مسیر های متفاوت پر داخت در بیابید بدین دلیل شما می توانید مسیر پر داخت کننده نگهداری کنید
 درس روی پنجره اصلی نمایش می شود</translation>
     </message>
@@ -229,7 +229,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR spaceballsS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>هشدار اگر شما روی پنجره رمز بگذارید و عبارت عبور فراموش کنید همه بیتکویینس شما گم می کنید. متماینید کن که می خواهید رمز بگذارید</translation>
     </message>
@@ -241,7 +241,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
+        <source>spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spaceballss from being stolen by malware infecting your computer.</source>
         <translation>Biticon هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کیف پولتان نمی‌تواند به طور کامل بیتیکون‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
@@ -293,10 +293,10 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
 </context>
 <context>
-    <name>BudMaxGUI</name>
+    <name>spaceballsGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>BudMax Wallet</source>
+        <source>spaceballs Wallet</source>
         <translation>پنجره بیتکویین</translation>
     </message>
     <message>
@@ -357,7 +357,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a BudMax address</source>
+        <source>Send coins to a spaceballs address</source>
         <translation>ارسال سکه به آدرس بیتکویین </translation>
     </message>
     <message>
@@ -387,7 +387,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about BudMax</source>
+        <source>Show information about spaceballs</source>
         <translation>نمایش اطلاعات در مورد بیتکویین</translation>
     </message>
     <message>
@@ -407,17 +407,17 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for BudMax</source>
+        <source>Modify configuration options for spaceballs</source>
         <translation>صلاح تنظیمات برای بیتکویین</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;BudMax</source>
+        <source>Open &amp;spaceballs</source>
         <translation>باز کردن &amp;amp;بیتکویین </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the BudMax window</source>
+        <source>Show the spaceballs window</source>
         <translation>نمایش پنجره بیتکویین</translation>
     </message>
     <message>
@@ -492,12 +492,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>BudMax-qt</source>
+        <source>spaceballs-qt</source>
         <translation>بیتکویین</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to BudMax network</source>
+        <source>%n active connection(s) to spaceballs network</source>
         <translation><numerusform>در صد ارتباطات فعال بیتکویین با شبکه %n</numerusform></translation>
     </message>
     <message>
@@ -680,7 +680,7 @@ Address: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid spaceballs address.</source>
         <translation>آدرس وارد شده آدرس معتبر بیتکویید نیست %1 </translation>
     </message>
     <message>
@@ -698,12 +698,12 @@ Address: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start BudMax on window system startup</source>
+        <source>&amp;Start spaceballs on window system startup</source>
         <translation>شروع بیتکویین از پنجره سیستم استارت</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start BudMax after the computer is turned on</source>
+        <source>Automatically start spaceballs after the computer is turned on</source>
         <translation>شروع بیتکویین اتوماتین بعد از روشن کامپیوتر</translation>
     </message>
     <message>
@@ -723,7 +723,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>اتوماتیک باز کردن بندر بیتکویین در روتر . این فقط در مواردی می باشد که روتر با کمک یو پ ن پ کار می کند</translation>
     </message>
     <message>
@@ -1184,7 +1184,7 @@ p, li { white-space: pre-wrap; }⏎
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1633,10 +1633,10 @@ p, li { white-space: pre-wrap; }⏎
     </message>
 </context>
 <context>
-    <name>BudMax-core</name>
+    <name>spaceballs-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>BudMax version</source>
+        <source>spaceballs version</source>
         <translation>سخه بیتکویین</translation>
     </message>
     <message>
@@ -1646,7 +1646,7 @@ p, li { white-space: pre-wrap; }⏎
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or BudMaxd</source>
+        <source>Send command to -server or spaceballsd</source>
         <translation>ارسال فرمان به سرور یا باتکویین</translation>
     </message>
     <message>
@@ -1666,13 +1666,13 @@ p, li { white-space: pre-wrap; }⏎
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: BudMax.conf)</source>
-        <translation>(: BudMax.confپیش فرض: )فایل تنظیمی خاص </translation>
+        <source>Specify configuration file (default: spaceballs.conf)</source>
+        <translation>(: spaceballs.confپیش فرض: )فایل تنظیمی خاص </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: BudMaxd.pid)</source>
-        <translation>(BudMaxd.pidپیش فرض : ) فایل پید خاص</translation>
+        <source>Specify pid file (default: spaceballsd.pid)</source>
+        <translation>(spaceballsd.pidپیش فرض : ) فایل پید خاص</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1847,9 +1847,9 @@ p, li { white-space: pre-wrap; }⏎
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
+SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
         <translation>
-( نگاه کنید  BudMax Wiki  در SSLتنظیمات ):SSL گزینه های</translation>
+( نگاه کنید  spaceballs Wiki  در SSLتنظیمات ):SSL گزینه های</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1878,7 +1878,7 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  spaceballs is probably already running.</source>
         <translation>رمز گشایی دایرکتور داده ها امکان پذیر نیست. شاید بیت کویین در حال فعال می باشد%s</translation>
     </message>
     <message>
@@ -1903,12 +1903,12 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of spaceballs</source>
         <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Biticon نیاز دارد</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
+        <source>Wallet needed to be rewritten: restart spaceballs to complete</source>
         <translation>سلام</translation>
     </message>
     <message>
@@ -1963,12 +1963,12 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  spaceballs is probably already running.</source>
         <translation>وسل بندر به کامپیوتر امکان پذیر نیست. شاید بیتکویید در حال فعال است%d</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong spaceballs will not work properly.</source>
         <translation>هشدار: تاریخ و ساعت کامپیوتر شما چک کنید. اگر ساعت درست نیست بیتکویین مناسب نخواهد کار کرد</translation>
     </message>
     <message>

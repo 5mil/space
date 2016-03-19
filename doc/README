@@ -1,6 +1,6 @@
-Peercoin (BudMax) 0.5.2 BETA
+Peercoin (spaceballs) 0.5.2 BETA
 
-Copyright (c) 2011-2016 Peercoin (BudMax) Developers
+Copyright (c) 2011-2016 Peercoin (spaceballs) Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -10,7 +10,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Peercoin (BudMax) is a free open source project derived from Bitcoin, with
+Peercoin (spaceballs) is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -19,33 +19,33 @@ help further advance the field of crypto-currency.
 Setup
 -----
 Unpack the files into a directory and run:
- bin/32/BudMax-qt (GUI, 32-bit)
- bin/32/BudMaxd (headless, 32-bit)
- bin/64/BudMax-qt (GUI, 64-bit)
- bin/64/BudMaxd (headless, 64-bit)
+ bin/32/spaceballs-qt (GUI, 32-bit)
+ bin/32/spaceballsd (headless, 32-bit)
+ bin/64/spaceballs-qt (GUI, 64-bit)
+ bin/64/spaceballsd (headless, 64-bit)
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 9901 (TCP) to your computer so you can receive
-incoming connections.  BudMax works without incoming connections,
-but allowing incoming connections helps the BudMax network.
+incoming connections.  spaceballs works without incoming connections,
+but allowing incoming connections helps the spaceballs network.
 
 
 Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.4, first backup wallet
-BudMaxd backupwallet <destination_backup_file>
-Then shutdown BudMaxd by
-BudMaxd stop
+spaceballsd backupwallet <destination_backup_file>
+Then shutdown spaceballsd by
+spaceballsd stop
 Uninstall v0.4 client, download and install v0.5 client.
-Start up the new BudMaxd (0.5.2).
+Start up the new spaceballsd (0.5.2).
 If upgrade is performed after or close to upgrade deadline then blockchain
 re-download is required.
 
 
 See the documentation/wiki at github:
-  http://github.com/BudMax/BudMax
+  http://github.com/spaceballs/spaceballs
 for help and more information.
 
 

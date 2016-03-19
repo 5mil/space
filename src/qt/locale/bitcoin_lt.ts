@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About BudMax</source>
-        <translation>Apie BudMaxą</translation>
+        <source>About spaceballs</source>
+        <translation>Apie spaceballsą</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BudMax&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;spaceballs&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;spaceballs&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 BudMax Developers
+        <source>Copyright © 2011-2013 spaceballs Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Autorystės teisės© 2011-2013 BudMax Developers
+        <translation>Autorystės teisės© 2011-2013 spaceballs Developers
 DĖMESIO: programa eksperimentinė!
 
 Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license.txt arba dokumente pagal nuorodą: http://www.opensource.org/licenses/mit-license.php.
@@ -39,7 +39,7 @@ Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Čia yra Jūsų adresai skirti mokėjimams gauti.  Jūs galite skirtingiems žmonėms duoti skirtingus adresus. Tai Jums palengvins kontroliuoti mokėjimus bei padidins anonimiškumą.
     </translation>
     </message>
@@ -227,7 +227,7 @@ Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR spaceballsS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>ĮSPĖJIMAS: Jei užšifruosite savo piniginę ir prarasite savo slaptažodį, Jūs &lt;b&gt; PRARASITE VISUS SAVO BITKOINUS, &lt;/b&gt;!
 Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
@@ -240,8 +240,8 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
-        <translation>BudMax dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti BudMaxų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spaceballss from being stolen by malware infecting your computer.</source>
+        <translation>spaceballs dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti spaceballsų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -292,10 +292,10 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
 </context>
 <context>
-    <name>BudMaxGUI</name>
+    <name>spaceballsGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>BudMax Wallet</source>
+        <source>spaceballs Wallet</source>
         <translation>Bitkoinų piniginė</translation>
     </message>
     <message>
@@ -356,7 +356,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a BudMax address</source>
+        <source>Send coins to a spaceballs address</source>
         <translation>Siųsti monetas bitkoinų adresu</translation>
     </message>
     <message>
@@ -386,7 +386,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about BudMax</source>
+        <source>Show information about spaceballs</source>
         <translation>Rodyti informaciją apie Bitkoiną</translation>
     </message>
     <message>
@@ -406,18 +406,18 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for BudMax</source>
-        <translation>Keisti BudMax konfigūracijos galimybes</translation>
+        <source>Modify configuration options for spaceballs</source>
+        <translation>Keisti spaceballs konfigūracijos galimybes</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;BudMax</source>
-        <translation>Atidaryti &amp;BudMax</translation>
+        <source>Open &amp;spaceballs</source>
+        <translation>Atidaryti &amp;spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the BudMax window</source>
-        <translation>Rodyti BudMax langą</translation>
+        <source>Show the spaceballs window</source>
+        <translation>Rodyti spaceballs langą</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -491,13 +491,13 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>BudMax-qt</source>
-        <translation>BudMax-qt</translation>
+        <source>spaceballs-qt</source>
+        <translation>spaceballs-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to BudMax network</source>
-        <translation><numerusform>%n BudMax tinklo aktyvus ryšys</numerusform><numerusform>%n BudMax tinklo aktyvūs ryšiai</numerusform><numerusform>%n BudMax tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to spaceballs network</source>
+        <translation><numerusform>%n spaceballs tinklo aktyvus ryšys</numerusform><numerusform>%n spaceballs tinklo aktyvūs ryšiai</numerusform><numerusform>%n spaceballs tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -679,7 +679,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid spaceballs address.</source>
         <translation>Įvestas adresas &quot;%1&quot;nėra galiojantis bitkoinų adresas</translation>
     </message>
     <message>
@@ -697,12 +697,12 @@ Adresas: %4</translation>
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start BudMax on window system startup</source>
-        <translation>&amp;S Paleisti  BudMax programą su window sistemos paleidimu</translation>
+        <source>&amp;Start spaceballs on window system startup</source>
+        <translation>&amp;S Paleisti  spaceballs programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start BudMax after the computer is turned on</source>
+        <source>Automatically start spaceballs after the computer is turned on</source>
         <translation>Automatiškai paleisti Bitkoin programą kai yra įjungiamas kompiuteris</translation>
     </message>
     <message>
@@ -722,8 +722,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti BudMax kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti spaceballs kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -1183,7 +1183,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1632,11 +1632,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>BudMax-core</name>
+    <name>spaceballs-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>BudMax version</source>
-        <translation>BudMax versija</translation>
+        <source>spaceballs version</source>
+        <translation>spaceballs versija</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1645,8 +1645,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or BudMaxd</source>
-        <translation>Siųsti komandą serveriui arba BudMaxd</translation>
+        <source>Send command to -server or spaceballsd</source>
+        <translation>Siųsti komandą serveriui arba spaceballsd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1665,13 +1665,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: BudMax.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: BudMax.conf)</translation>
+        <source>Specify configuration file (default: spaceballs.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: spaceballs.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: BudMaxd.pid)</source>
-        <translation>Nurodyti pid failą  (pagal nutylėjimą: BudMaxd.pid)</translation>
+        <source>Specify pid file (default: spaceballsd.pid)</source>
+        <translation>Nurodyti pid failą  (pagal nutylėjimą: spaceballsd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1846,8 +1846,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e BudMax Wiki for SSL setup instructions)</translation>
+SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e spaceballs Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1876,8 +1876,8 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
-        <translation>Negali gauti duomenų katalogo %s rakto. BudMax tikriausiai jau veikia.</translation>
+        <source>Cannot obtain a lock on data directory %s.  spaceballs is probably already running.</source>
+        <translation>Negali gauti duomenų katalogo %s rakto. spaceballs tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1901,13 +1901,13 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės BudMax versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of spaceballs</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės spaceballs versijos</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite BudMax</translation>
+        <source>Wallet needed to be rewritten: restart spaceballs to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1961,13 +1961,13 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %d. BudMax tikriausiai jau veikia.</translation>
+        <source>Unable to bind to port %d on this computer.  spaceballs is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %d. spaceballs tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas BudMax, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong spaceballs will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas spaceballs, veiks netinkamai.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

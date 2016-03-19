@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BudMaxs");
-    case mBTC: return QString("Milli-BudMaxs (1 / 1,000)");
-    case uBTC: return QString("Micro-BudMaxs (1 / 1,000,000)");
+    case BTC: return QString("spaceballss");
+    case mBTC: return QString("Milli-spaceballss (1 / 1,000)");
+    case uBTC: return QString("Micro-spaceballss (1 / 1,000,000)");
     default: return QString("???");
     }
 }

@@ -1,7 +1,7 @@
-BudMax
+spaceballs
 
-Copyright (c) 2011-2016 Peercoin (BudMax) Developers
-Copyright (c) 2016-2016 BudMax Developers
+Copyright (c) 2011-2016 Peercoin (spaceballs) Developers
+Copyright (c) 2016-2016 spaceballs Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-BudMax(BUD) is a free open source project derived from Bitcoin, with
+spaceballs(BUD) is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -19,28 +19,28 @@ help further advance the field of crypto-currency.
 
 Setup
 -----
-After completing windows setup then run BudMax-qt.
-Alternatively you can run windows command line (cmd) in BudMax program dir.
+After completing windows setup then run spaceballs-qt.
+Alternatively you can run windows command line (cmd) in spaceballs program dir.
   cd daemon
-  BudMaxd
-You would need to create a configuration file BudMax.conf in the default
-wallet directory. Grant access to BudMaxd/BudMax-qt in anti-virus and firewall
+  spaceballsd
+You would need to create a configuration file spaceballs.conf in the default
+wallet directory. Grant access to spaceballsd/spaceballs-qt in anti-virus and firewall
 applications if necessary.
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 9901 (TCP) to your computer so you can receive
-incoming connections.  BudMax works without incoming connections,
-but allowing incoming connections helps the BudMax network.
+incoming connections.  spaceballs works without incoming connections,
+but allowing incoming connections helps the spaceballs network.
 
 
 Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.4, first backup wallet in qt menu or by command line
-BudMaxd backupwallet <destination_backup_file>
-Then shutdown BudMaxd by
-BudMaxd stop
+spaceballsd backupwallet <destination_backup_file>
+Then shutdown spaceballsd by
+spaceballsd stop
 Uninstall v0.4 client, download and install v0.5 client.
 If upgrade is performed after or close to upgrade deadline, blockchain
 re-download is required.
@@ -50,7 +50,7 @@ See the documentation/wiki at github:
   http://github.com/
 for help and more information.
 
-based on BudMax and Bitcoin.
+based on spaceballs and Bitcoin.
 
 ------------------
 Bitcoin 0.6.3 BETA
