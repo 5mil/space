@@ -926,7 +926,8 @@ int64 GetProofOfWorkReward(unsigned int nBits)
     nSubsidy = (nSubsidy / CENT) * CENT;
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nBits=0x%08x nSubsidy=%"PRI64d"\n", FormatMoney(nSubsidy).c_str(), nBits, nSubsidy);
-
+    if(nHeight < 2){
+        nSubsidy = 50000000 * COIN; // Full Premine
     return min(nSubsidy, MAX_MINT_PROOF_OF_WORK);
 }
 
