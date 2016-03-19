@@ -24,7 +24,7 @@
        <property name="text">
         <string>&amp;Label</string>
        </property>
-       <property name="BALLSdy">
+       <property name="buddy">
         <cstring>labelEdit</cstring>
        </property>
       </widget>
@@ -41,7 +41,7 @@
        <property name="text">
         <string>&amp;Address</string>
        </property>
-       <property name="BALLSdy">
+       <property name="buddy">
         <cstring>addressEdit</cstring>
        </property>
       </widget>

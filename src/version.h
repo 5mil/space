@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2012-2013 The spaceballs developers
+// Copyright (c) 2012-2013 The BudMax developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -27,17 +27,17 @@ extern const std::string CLIENT_NAME;
 extern const std::string CLIENT_BUILD;
 extern const std::string CLIENT_DATE;
 
-// spaceballs version - intended for display purpose ONLY
-#define spaceballs_VERSION_MAJOR       0
-#define spaceballs_VERSION_MINOR       5
-#define spaceballs_VERSION_REVISION    2
-#define spaceballs_VERSION_BUILD       0
+// BudMax version - intended for display purpose ONLY
+#define BudMax_VERSION_MAJOR       0
+#define BudMax_VERSION_MINOR       5
+#define BudMax_VERSION_REVISION    2
+#define BudMax_VERSION_BUILD       0
 
-static const int spaceballs_VERSION =
-                           1000000 * spaceballs_VERSION_MAJOR
-                         +   10000 * spaceballs_VERSION_MINOR
-                         +     100 * spaceballs_VERSION_REVISION
-                         +       1 * spaceballs_VERSION_BUILD;
+static const int BudMax_VERSION =
+                           1000000 * BudMax_VERSION_MAJOR
+                         +   10000 * BudMax_VERSION_MINOR
+                         +     100 * BudMax_VERSION_REVISION
+                         +       1 * BudMax_VERSION_BUILD;
 
 //
 // network protocol versioning

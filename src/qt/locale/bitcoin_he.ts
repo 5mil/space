@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About spaceballs</source>
+        <source>About BudMax</source>
         <translation>אודות ביטקוין</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;spaceballs&lt;/b&gt; version</source>
+        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
         <translation>גרסת &lt;b&gt;ביטקוין&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 spaceballs Developers
+        <source>Copyright © 2011-2013 BudMax Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>זכויות יוצרים © 2011-2013 spaceballs Developers שמורות למפתחי ביטקוין
+        <translation>זכויות יוצרים © 2011-2013 BudMax Developers שמורות למפתחי ביטקוין
 
 זוהי תוכנה ניסיונית.
 
@@ -39,7 +39,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>אלה כתובות הביטקוין שלך עבור קבלת תשלומים.  אתה עשוי לרצות לתת כתובת שונה לכל שולח כדי שתוכל לעקוב אחר מי משלם לך.</translation>
     </message>
     <message>
@@ -226,7 +226,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR spaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>אזהרה: אם תצפין את הארנק שלך ותאבד את הסיסמה אתה &lt;b&gt;תאבד את כל הביטקוין שלך&lt;/b&gt;!
 אתה בטוח שברצונך להצפין את הארנק?</translation>
@@ -239,7 +239,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spaceballss from being stolen by malware infecting your computer.</source>
+        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
         <translation>ביטקוין ייסגר עכשיו כדי להשלים את תהליך ההצפנה. זכור שהצפנת הארנק שלך אינו יכול להגן באופן מלא על הביטקוינים שלך מתוכנות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
@@ -291,10 +291,10 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
 </context>
 <context>
-    <name>spaceballsGUI</name>
+    <name>BudMaxGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>spaceballs Wallet</source>
+        <source>BudMax Wallet</source>
         <translation>ארנק ביטקוין</translation>
     </message>
     <message>
@@ -355,7 +355,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a spaceballs address</source>
+        <source>Send coins to a BudMax address</source>
         <translation>שלח מטבעות לכתובת ביטקוין</translation>
     </message>
     <message>
@@ -385,7 +385,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about spaceballs</source>
+        <source>Show information about BudMax</source>
         <translation>הצג מידע על ביטקוין</translation>
     </message>
     <message>
@@ -405,17 +405,17 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for spaceballs</source>
+        <source>Modify configuration options for BudMax</source>
         <translation>שנה הגדרות עבור ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;spaceballs</source>
+        <source>Open &amp;BudMax</source>
         <translation>פתח את &amp;ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the spaceballs window</source>
+        <source>Show the BudMax window</source>
         <translation>הצג את חלון ביטקוין</translation>
     </message>
     <message>
@@ -490,12 +490,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>spaceballs-qt</source>
-        <translation>spaceballs-qt</translation>
+        <source>BudMax-qt</source>
+        <translation>BudMax-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to spaceballs network</source>
+        <source>%n active connection(s) to BudMax network</source>
         <translation><numerusform>חיבור פעיל אחד לרשת הביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת הביטקוין</numerusform></translation>
     </message>
     <message>
@@ -678,7 +678,7 @@ Address: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid spaceballs address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
         <translation>הכתובת שהכנסת &quot;%1&quot; אינה כתובת ביטקוין תקינה.</translation>
     </message>
     <message>
@@ -696,12 +696,12 @@ Address: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start spaceballs on window system startup</source>
+        <source>&amp;Start BudMax on window system startup</source>
         <translation>התח&amp;ל את ביטקוין בהפעלת מערכת חלונות</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start spaceballs after the computer is turned on</source>
+        <source>Automatically start BudMax after the computer is turned on</source>
         <translation>התחל את ביטקוין אוטומטית כשהמחשב נדלק</translation>
     </message>
     <message>
@@ -721,7 +721,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>פתח את פורט ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מאופשר ונתמך ע&quot;י הנתב.</translation>
     </message>
     <message>
@@ -1182,7 +1182,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>הכנס כתובת ביטקוין (למשל 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1631,10 +1631,10 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>spaceballs-core</name>
+    <name>BudMax-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>spaceballs version</source>
+        <source>BudMax version</source>
         <translation>גרסת ביטקוין</translation>
     </message>
     <message>
@@ -1644,8 +1644,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or spaceballsd</source>
-        <translation>שלח פקודה ל -server או spaceballsd</translation>
+        <source>Send command to -server or BudMaxd</source>
+        <translation>שלח פקודה ל -server או BudMaxd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1664,13 +1664,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: spaceballs.conf)</source>
-        <translation>ציין קובץ הגדרות (ברירת מחדל: spaceballs.conf)</translation>
+        <source>Specify configuration file (default: BudMax.conf)</source>
+        <translation>ציין קובץ הגדרות (ברירת מחדל: BudMax.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: spaceballsd.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: spaceballsd.pid)</translation>
+        <source>Specify pid file (default: BudMaxd.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: BudMaxd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1845,7 +1845,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
+SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
         <translation>אפשרויות SSL: (ראה את הויקי של ביטקוין עבור הוראות להתקנת SSL)</translation>
     </message>
     <message>
@@ -1875,7 +1875,7 @@ SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  spaceballs is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
         <translation>אינו מסוגל לנעול את תיקיית הנתונים %s.  כנראה שביטקוין כבר רץ.</translation>
     </message>
     <message>
@@ -1900,12 +1900,12 @@ SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of spaceballs</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
         <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק דורש גרסה חדשה יותר של ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart spaceballs to complete</source>
+        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
         <translation>יש לכתוב מחדש את הארנק: אתחל את ביטקוין לסיום</translation>
     </message>
     <message>
@@ -1960,12 +1960,12 @@ SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  spaceballs is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
         <translation>לא מסוגל להיקשר לפורט %d במחשב הזה.  כנראה שביטקוין כבר רץ.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong spaceballs will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
         <translation>אזהרה: אנא בדוק שהתאריך והשעה של המחשב הזה נכונים.  אם השעון שלך שגוי ביטקוין לא יפעל כהלכה.</translation>
     </message>
     <message>

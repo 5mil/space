@@ -1,9 +1,9 @@
 /*
- * Qt4 spaceballs GUI.
+ * Qt4 BudMax GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The spaceballs Developers 2011-2013
+ * The BudMax Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -71,9 +71,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("spaceballs (BALLS) Wallet"));
+    setWindowTitle(tr("BudMax (BUD) Wallet"));
 #ifndef Q_WS_MAC
-    setWindowIcon(QIcon(":icons/spaceballs"));
+    setWindowIcon(QIcon(":icons/BudMax"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -204,7 +204,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a spaceballs address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a BudMax address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -233,17 +233,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/spaceballs"), tr("&About %1").arg(qApp->applicationName()), this);
-    aboutAction->setToolTip(tr("Show information about spaceballs"));
+    aboutAction = new QAction(QIcon(":/icons/BudMax"), tr("&About %1").arg(qApp->applicationName()), this);
+    aboutAction->setToolTip(tr("Show information about BudMax"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for spaceballs"));
+    optionsAction->setToolTip(tr("Modify configuration options for BudMax"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/spaceballs"), tr("Show/Hide &spaceballs"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the spaceballs window"));
+    toggleHideAction = new QAction(QIcon(":/icons/BudMax"), tr("Show/Hide &BudMax"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the BudMax window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet"), this);
@@ -327,9 +327,9 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_WS_MAC
-            setWindowIcon(QIcon(":icons/spaceballs_testnet"));
+            setWindowIcon(QIcon(":icons/BudMax_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/spaceballs_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/BudMax_testnet"));
 #endif
             if(trayIcon)
             {
@@ -388,7 +388,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("spaceballs client"));
+    trayIcon->setToolTip(tr("BudMax client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -415,7 +415,7 @@ void BitcoinGUI::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 #endif
 
-    notificator = new Notificator(tr("spaceballs-qt"), trayIcon);
+    notificator = new Notificator(tr("BudMax-qt"), trayIcon);
 }
 
 #ifndef Q_WS_MAC
@@ -479,7 +479,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to spaceballs network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to BudMax network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

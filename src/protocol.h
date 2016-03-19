@@ -15,10 +15,10 @@
 #include <string>
 #include "uint256.h"
 
-#define spaceballs_PORT  72420
-#define RPC_PORT     72421
-#define TESTNET_PORT 72422
-#define TESTNET_RPC_PORT 72423
+#define BudMax_PORT  42001
+#define RPC_PORT     42002
+#define TESTNET_PORT 42003
+#define TESTNET_RPC_PORT 42004
 
 extern bool fTestNet;
 
@@ -26,7 +26,7 @@ void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent = false);
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? TESTNET_PORT : spaceballs_PORT;
+    return testnet ? TESTNET_PORT : BudMax_PORT;
 }
 
 

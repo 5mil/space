@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About spaceballs</source>
-        <translation>A spaceballsról</translation>
+        <source>About BudMax</source>
+        <translation>A BudMaxról</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;spaceballs&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;spaceballs&lt;/b&gt; verzió</translation>
+        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;BudMax&lt;/b&gt; verzió</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 spaceballs Developers
+        <source>Copyright © 2011-2013 BudMax Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a spaceballs-címekkel fogadhatod kifizetéseket.   Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ezekkel a BudMax-címekkel fogadhatod kifizetéseket.   Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR spaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>FIGYELEM: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES spaceballsODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;
+        <translation>FIGYELEM: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BudMaxODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;
 Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spaceballss from being stolen by malware infecting your computer.</source>
+        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -285,11 +285,11 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
 </context>
 <context>
-    <name>spaceballsGUI</name>
+    <name>BudMaxGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>spaceballs Wallet</source>
-        <translation>spaceballs-tárca</translation>
+        <source>BudMax Wallet</source>
+        <translation>BudMax-tárca</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -349,7 +349,7 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a spaceballs address</source>
+        <source>Send coins to a BudMax address</source>
         <translation>Érmék küldése megadott címre</translation>
     </message>
     <message>
@@ -379,8 +379,8 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about spaceballs</source>
-        <translation>Információk a spaceballsról</translation>
+        <source>Show information about BudMax</source>
+        <translation>Információk a BudMaxról</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for spaceballs</source>
-        <translation>spaceballs konfigurációs opciók</translation>
+        <source>Modify configuration options for BudMax</source>
+        <translation>BudMax konfigurációs opciók</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;spaceballs</source>
-        <translation>A &amp;spaceballs megnyitása</translation>
+        <source>Open &amp;BudMax</source>
+        <translation>A &amp;BudMax megnyitása</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the spaceballs window</source>
-        <translation>A spaceballs-ablak mutatása</translation>
+        <source>Show the BudMax window</source>
+        <translation>A BudMax-ablak mutatása</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,13 +484,13 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>spaceballs-qt</source>
-        <translation>spaceballs-qt</translation>
+        <source>BudMax-qt</source>
+        <translation>BudMax-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to spaceballs network</source>
-        <translation><numerusform>%n aktív kapcsolat a spaceballs-hálózattal</numerusform><numerusform>%n aktív kapcsolat a spaceballs-hálózattal</numerusform></translation>
+        <source>%n active connection(s) to BudMax network</source>
+        <translation><numerusform>%n aktív kapcsolat a BudMax-hálózattal</numerusform><numerusform>%n aktív kapcsolat a BudMax-hálózattal</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -673,8 +673,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid spaceballs address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes spaceballs-cím.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
+        <translation>A megadott &quot;%1&quot; cím nem egy érvényes BudMax-cím.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -691,13 +691,13 @@ Cím: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start spaceballs on window system startup</source>
+        <source>&amp;Start BudMax on window system startup</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start spaceballs after the computer is turned on</source>
-        <translation>Induljon el a spaceballs a számítógép bekapcsolásakor</translation>
+        <source>Automatically start BudMax after the computer is turned on</source>
+        <translation>Induljon el a BudMax a számítógép bekapcsolásakor</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -716,8 +716,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A spaceballs-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A BudMax-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -737,7 +737,7 @@ Cím: %4
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>SOCKS4 proxyn keresztüli csatlakozás a spaceballs hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <translation>SOCKS4 proxyn keresztüli csatlakozás a BudMax hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1094,7 +1094,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsdialog.cpp" line="133"/>
         <source>Amount exceeds your balance</source>
-        <translation>Nincs ennyi spaceballs az egyenlegeden.</translation>
+        <translation>Nincs ennyi BudMax az egyenlegeden.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="138"/>
@@ -1178,8 +1178,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adj meg egy spaceballs-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
+        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adj meg egy BudMax-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
     </message>
 </context>
 <context>
@@ -1627,11 +1627,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>spaceballs-core</name>
+    <name>BudMax-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>spaceballs version</source>
-        <translation>spaceballs verzió</translation>
+        <source>BudMax version</source>
+        <translation>BudMax verzió</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1640,8 +1640,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or spaceballsd</source>
-        <translation>Parancs küldése a -serverhez vagy a spaceballsdhez
+        <source>Send command to -server or BudMaxd</source>
+        <translation>Parancs küldése a -serverhez vagy a BudMaxdhez
 </translation>
     </message>
     <message>
@@ -1664,14 +1664,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: spaceballs.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: spaceballs.conf)
+        <source>Specify configuration file (default: BudMax.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: BudMax.conf)
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: spaceballsd.pid)</source>
-        <translation>pid-fájl (alapértelmezett: spaceballsd.pid)
+        <source>Specify pid file (default: BudMaxd.pid)</source>
+        <translation>pid-fájl (alapértelmezett: BudMaxd.pid)
 </translation>
     </message>
     <message>
@@ -1683,7 +1683,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
         <source>Don&apos;t generate coins</source>
-        <translation>spaceballs-generálás leállítása
+        <translation>BudMax-generálás leállítása
 </translation>
     </message>
     <message>
@@ -1869,9 +1869,9 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the spaceballs Wiki for SSL setup instructions)</source>
+SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
         <translation>
-SSL-opciók: (lásd a spaceballs Wiki SSL-beállítási instrukcióit)
+SSL-opciók: (lásd a BudMax Wiki SSL-beállítási instrukcióit)
 </translation>
     </message>
     <message>
@@ -1906,8 +1906,8 @@ SSL-opciók: (lásd a spaceballs Wiki SSL-beállítási instrukcióit)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  spaceballs is probably already running.</source>
-        <translation>Az %s adatkönyvtár nem zárható.  A spaceballs valószínűleg fut már.</translation>
+        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
+        <translation>Az %s adatkönyvtár nem zárható.  A BudMax valószínűleg fut már.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1931,12 +1931,12 @@ SSL-opciók: (lásd a spaceballs Wiki SSL-beállítási instrukcióit)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of spaceballs</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart spaceballs to complete</source>
+        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1991,13 +1991,13 @@ SSL-opciók: (lásd a spaceballs Wiki SSL-beállítási instrukcióit)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  spaceballs is probably already running.</source>
-        <translation>A %d port nem elérhető ezen a gépen.  A spaceballs valószínűleg fut már.</translation>
+        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
+        <translation>A %d port nem elérhető ezen a gépen.  A BudMax valószínűleg fut már.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong spaceballs will not work properly.</source>
-        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A spaceballs nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A BudMax nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
