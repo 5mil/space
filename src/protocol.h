@@ -15,10 +15,10 @@
 #include <string>
 #include "uint256.h"
 
-#define spaceballs_PORT  42001
-#define RPC_PORT     42002
-#define TESTNET_PORT 42003
-#define TESTNET_RPC_PORT 42004
+#define spaceballs_PORT  72420
+#define RPC_PORT     72421
+#define TESTNET_PORT 72422
+#define TESTNET_RPC_PORT 72423
 
 extern bool fTestNet;
 

@@ -17,14 +17,14 @@
 
 // Public testnet message start
 // unsigned char pchMessageStartTestBitcoin[4] = { 0xfa, 0xbf, 0xb5, 0xda };
-static unsigned char pchMessageStartTestOld[4] = { 0xdf, 0xf1, 0xb2, 0xb6 };
-static unsigned char pchMessageStartTestNew[4] = { 0xcf, 0xb2, 0xf0, 0xfb };
+static unsigned char pchMessageStartTestOld[4] = { 0xff, 0xd3, 0xd6, 0xb4 };
+static unsigned char pchMessageStartTestNew[4] = { 0xbb, 0xbf, 0xda, 0xda };
 static unsigned int nMessageStartTestSwitchTime = 1346200000;
 
 // spaceballs message start (switch from Bitcoin's in v0.2)
-static unsigned char pchMessageStartBitcoin[4] = { 0xb9, 0xfe, 0xf4, 0xf9 };
-static unsigned char pchMessageStartspaceballs[4] = { 0xf6, 0xf8, 0xf9, 0xf3 };
-static unsigned int nMessageStartSwitchTime = 1420420420;
+static unsigned char pchMessageStartBitcoin[4] = { 0xc5, 0xb9, 0xf5, 0xf5 };
+static unsigned char pchMessageStartspaceballs[4] = { 0xf5, 0xf5, 0xf5, 0xf5 };
+static unsigned int nMessageStartSwitchTime = 1499999999;
 
 void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent)
 {
