@@ -921,18 +921,14 @@ int64 GetProofOfWorkReward(unsigned int nBits)
         else
             bnLowerBound = bnMidValue;
     }
-
-   int64 static GetBlockValue(int nHeight, int64 nFees)
-{
-    int64 nSubsidy = 1 * COIN;
-    nSubsidy >>= (nHeight / 5000000000); // Voxels: 500m blocks
-    
-      if(nHeight < 3){
+int64 static GetBlockValue(int nHeight, int64 nFees)
+    int64 nSubsidy = bnUpperBound.getuint64();
+    nSubsidy = (nSubsidy / CENT) * CENT;
+    if (fDebug && GetBoolArg("-printcreation"))
+        printf("GetProofOfWorkReward() : create=%s nBits=0x%08x nSubsidy=%"PRI64d"\n", FormatMoney(nSubsidy).c_str(), nBits, nSubsidy);
+if(nHeight < 3){
         nSubsidy = 50000000 * COIN; // Full Premine
     }
-
-    return nSubsidy + nFees;
-}
     return min(nSubsidy, MAX_MINT_PROOF_OF_WORK);
 }
 
