@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About BudMax</source>
-        <translation>O BudMax</translation>
+        <source>About Spaceballs</source>
+        <translation>O Spaceballs</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BudMax&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 BudMax Developers
+        <source>Copyright © 2011-2013 Spaceballs Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú Vaše BudMax adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
+        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú Vaše Spaceballs adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>VAROVANIE: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BudMaxY&lt;/b&gt;!⏎
+        <translation>VAROVANIE: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE SpaceballsY&lt;/b&gt;!⏎
 Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
+        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -285,11 +285,11 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
 </context>
 <context>
-    <name>BudMaxGUI</name>
+    <name>SpaceballsGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>BudMax Wallet</source>
-        <translation>BudMax peňaženka</translation>
+        <source>Spaceballs Wallet</source>
+        <translation>Spaceballs peňaženka</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -335,7 +335,7 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="194"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Prijať BudMaxs</translation>
+        <translation>&amp;Prijať Spaceballss</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="195"/>
@@ -345,12 +345,12 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="200"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Poslať BudMaxs</translation>
+        <translation>&amp;Poslať Spaceballss</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a BudMax address</source>
-        <translation>Poslať BudMaxs na adresu</translation>
+        <source>Send coins to a Spaceballs address</source>
+        <translation>Poslať Spaceballss na adresu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -379,8 +379,8 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about BudMax</source>
-        <translation>Zobraziť informácie o BudMax</translation>
+        <source>Show information about Spaceballs</source>
+        <translation>Zobraziť informácie o Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for BudMax</source>
-        <translation>Upraviť možnosti nastavenia pre BudMax</translation>
+        <source>Modify configuration options for Spaceballs</source>
+        <translation>Upraviť možnosti nastavenia pre Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;BudMax</source>
-        <translation>Otvoriť &amp;BudMax</translation>
+        <source>Open &amp;Spaceballs</source>
+        <translation>Otvoriť &amp;Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the BudMax window</source>
-        <translation>Zobraziť okno BudMax</translation>
+        <source>Show the Spaceballs window</source>
+        <translation>Zobraziť okno Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,12 +484,12 @@ Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>BudMax-qt</source>
-        <translation>BudMax-qt</translation>
+        <source>Spaceballs-qt</source>
+        <translation>Spaceballs-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to BudMax network</source>
+        <source>%n active connection(s) to Spaceballs network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -672,8 +672,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou BudMax.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou Spaceballs.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -690,13 +690,13 @@ Adresa: %4</translation>
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start BudMax on window system startup</source>
-        <translation>&amp;Spustiť BudMax pri spustení systému správy okien</translation>
+        <source>&amp;Start Spaceballs on window system startup</source>
+        <translation>&amp;Spustiť Spaceballs pri spustení systému správy okien</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start BudMax after the computer is turned on</source>
-        <translation>Automaticky spustiť BudMax po zapnutí počítača</translation>
+        <source>Automatically start Spaceballs after the computer is turned on</source>
+        <translation>Automaticky spustiť Spaceballs po zapnutí počítača</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -715,8 +715,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre BudMax na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Spaceballs na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -736,7 +736,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Pripojiť do siete BudMax cez SOCKS4 proxy (napr. keď sa pripájate cez Tor)</translation>
+        <translation>Pripojiť do siete Spaceballs cez SOCKS4 proxy (napr. keď sa pripájate cez Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1014,7 +1014,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>Poslať BudMaxs</translation>
+        <translation>Poslať Spaceballss</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1064,7 +1064,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsdialog.cpp" line="99"/>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie BudMaxs</translation>
+        <translation>Potvrdiť odoslanie Spaceballss</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="100"/>
@@ -1172,8 +1172,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadajte BudMax adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadajte Spaceballs adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1621,11 +1621,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>BudMax-core</name>
+    <name>Spaceballs-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>BudMax version</source>
-        <translation>BudMax verzia</translation>
+        <source>Spaceballs version</source>
+        <translation>Spaceballs verzia</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1634,8 +1634,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or BudMaxd</source>
-        <translation>Odoslať príkaz -server alebo BudMaxd</translation>
+        <source>Send command to -server or Spaceballsd</source>
+        <translation>Odoslať príkaz -server alebo Spaceballsd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1654,23 +1654,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: BudMax.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: BudMax.conf)</translation>
+        <source>Specify configuration file (default: Spaceballs.conf)</source>
+        <translation>Určiť súbor s nastaveniami (predvolené: Spaceballs.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: BudMaxd.pid)</source>
-        <translation>Určiť súbor pid (predvolené: BudMaxd.pid)</translation>
+        <source>Specify pid file (default: Spaceballsd.pid)</source>
+        <translation>Určiť súbor pid (predvolené: Spaceballsd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
         <source>Generate coins</source>
-        <translation>Počítaj BudMaxs</translation>
+        <translation>Počítaj Spaceballss</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Nepočítaj BudMaxs</translation>
+        <translation>Nepočítaj Spaceballss</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
@@ -1835,8 +1835,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite BudMax Wiki pre návod na nastavenie SSL)</translation>
+SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosť: (pozrite Spaceballs Wiki pre návod na nastavenie SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1865,7 +1865,7 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1890,13 +1890,13 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu BudMax</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
+        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním BudMax</translation>
+        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1950,12 +1950,12 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>

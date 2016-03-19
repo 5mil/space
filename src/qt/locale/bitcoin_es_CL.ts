@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About BudMax</source>
-        <translation>Sobre BudMax</translation>
+        <source>About Spaceballs</source>
+        <translation>Sobre Spaceballs</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;BudMax&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BudMax&lt;/b&gt; - versión </translation>
+        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; - versión </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 BudMax Developers
+        <source>Copyright © 2011-2013 Spaceballs Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your BudMax addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son tus direcciones BudMax para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
+        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son tus direcciones Spaceballs para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BudMaxS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATENCIÓN: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS BudMaxS&lt;/b&gt;!&quot;
+        <translation>ATENCIÓN: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS SpaceballsS&lt;/b&gt;!&quot;
 ¿Seguro que quieres seguir codificando la billetera?</translation>
     </message>
     <message>
@@ -233,8 +233,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>BudMax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BudMaxs from being stolen by malware infecting your computer.</source>
-        <translation>BudMax se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus BudMaxs de ser robados por malware que infecte su computador</translation>
+        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
+        <translation>Spaceballs se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus Spaceballss de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -285,11 +285,11 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
 </context>
 <context>
-    <name>BudMaxGUI</name>
+    <name>SpaceballsGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>BudMax Wallet</source>
-        <translation>Billetera BudMax</translation>
+        <source>Spaceballs Wallet</source>
+        <translation>Billetera Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -349,8 +349,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a BudMax address</source>
-        <translation>Enviar monedas a una dirección BudMax</translation>
+        <source>Send coins to a Spaceballs address</source>
+        <translation>Enviar monedas a una dirección Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -379,8 +379,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about BudMax</source>
-        <translation>Muestra información acerca de BudMax</translation>
+        <source>Show information about Spaceballs</source>
+        <translation>Muestra información acerca de Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for BudMax</source>
-        <translation>Modifica las opciones de configuración de BudMax</translation>
+        <source>Modify configuration options for Spaceballs</source>
+        <translation>Modifica las opciones de configuración de Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;BudMax</source>
-        <translation>Abre &amp;BudMax</translation>
+        <source>Open &amp;Spaceballs</source>
+        <translation>Abre &amp;Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the BudMax window</source>
-        <translation>Muestra la ventana de BudMax</translation>
+        <source>Show the Spaceballs window</source>
+        <translation>Muestra la ventana de Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,13 +484,13 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>BudMax-qt</source>
-        <translation>BudMax-qt</translation>
+        <source>Spaceballs-qt</source>
+        <translation>Spaceballs-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to BudMax network</source>
-        <translation><numerusform>%n conexión activa hacia la red BudMax</numerusform><numerusform>%n conexiones activas hacia la red BudMax</numerusform></translation>
+        <source>%n active connection(s) to Spaceballs network</source>
+        <translation><numerusform>%n conexión activa hacia la red Spaceballs</numerusform><numerusform>%n conexiones activas hacia la red Spaceballs</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -672,8 +672,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid BudMax address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección BudMax valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Spaceballs valida.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -690,13 +690,13 @@ Dirección: %4</translation>
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start BudMax on window system startup</source>
-        <translation>&amp;Inicia BudMax al iniciar el sistema</translation>
+        <source>&amp;Start Spaceballs on window system startup</source>
+        <translation>&amp;Inicia Spaceballs al iniciar el sistema</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start BudMax after the computer is turned on</source>
-        <translation>Inicia BudMax automáticamente despues de encender el computador</translation>
+        <source>Automatically start Spaceballs after the computer is turned on</source>
+        <translation>Inicia Spaceballs automáticamente despues de encender el computador</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -715,8 +715,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the BudMax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente BudMax en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Spaceballs en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -736,7 +736,7 @@ Dirección: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Conecta a la red BudMax a través de un proxy SOCKS4 (ej. cuando te conectas por la red Tor)</translation>
+        <translation>Conecta a la red Spaceballs a través de un proxy SOCKS4 (ej. cuando te conectas por la red Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1176,8 +1176,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a BudMax address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduce una dirección BudMax (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduce una dirección Spaceballs (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1625,11 +1625,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>BudMax-core</name>
+    <name>Spaceballs-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>BudMax version</source>
-        <translation>Versión BudMax</translation>
+        <source>Spaceballs version</source>
+        <translation>Versión Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1638,8 +1638,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or BudMaxd</source>
-        <translation>Envia comando a BudMax lanzado con -server u BudMaxd
+        <source>Send command to -server or Spaceballsd</source>
+        <translation>Envia comando a Spaceballs lanzado con -server u Spaceballsd
 </translation>
     </message>
     <message>
@@ -1662,14 +1662,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: BudMax.conf)</source>
-        <translation>Especifica archivo de configuración (predeterminado: BudMax.conf)
+        <source>Specify configuration file (default: Spaceballs.conf)</source>
+        <translation>Especifica archivo de configuración (predeterminado: Spaceballs.conf)
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: BudMaxd.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: BudMax.pid)
+        <source>Specify pid file (default: Spaceballsd.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: Spaceballs.pid)
 </translation>
     </message>
     <message>
@@ -1867,8 +1867,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la BudMax Wiki para instrucciones de configuración SSL)
+SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la Spaceballs Wiki para instrucciones de configuración SSL)
 </translation>
     </message>
     <message>
@@ -1903,8 +1903,8 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  BudMax is probably already running.</source>
-        <translation>No se puede obtener permiso de trabajo en la carpeta de datos %s. Probablemente BudMax ya se está ejecutando.
+        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
+        <translation>No se puede obtener permiso de trabajo en la carpeta de datos %s. Probablemente Spaceballs ya se está ejecutando.
 </translation>
     </message>
     <message>
@@ -1929,13 +1929,13 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BudMax</source>
-        <translation>Error cargando wallet.dat: Billetera necesita una vercion reciente de BudMax</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
+        <translation>Error cargando wallet.dat: Billetera necesita una vercion reciente de Spaceballs</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart BudMax to complete</source>
-        <translation>La billetera necesita ser reescrita: reinicie BudMax para completar</translation>
+        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
+        <translation>La billetera necesita ser reescrita: reinicie Spaceballs para completar</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1989,13 +1989,13 @@ SSL options: (see the BudMax Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  BudMax is probably already running.</source>
-        <translation>No es posible escuchar en el puerto %d en este ordenador. Probablemente BudMax ya se está ejecutando.</translation>
+        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
+        <translation>No es posible escuchar en el puerto %d en este ordenador. Probablemente Spaceballs ya se está ejecutando.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong BudMax will not work properly.</source>
-        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado BudMax no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
+        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado Spaceballs no funcionará correctamente.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

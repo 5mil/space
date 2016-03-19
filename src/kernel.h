@@ -1,9 +1,9 @@
 // Copyright (c) 2012-2015 The Peercoin developers
-// Copyright (c) 2016-2016 The BudMax developers
+// Copyright (c) 2016-2016 The Spaceballs developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BudMax_KERNEL_H
-#define BudMax_KERNEL_H
+#ifndef Spaceballs_KERNEL_H
+#define Spaceballs_KERNEL_H
 
 #include "main.h"
 
@@ -50,4 +50,4 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex);
 // Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum);
 
-#endif // BudMax_KERNEL_H
+#endif // Spaceballs_KERNEL_H

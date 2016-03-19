@@ -1,7 +1,7 @@
 src/*.exe
-src/BudMax
-src/BudMaxd
-src/test_BudMax
+src/Spaceballs
+src/Spaceballsd
+src/test_Spaceballs
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.BudMax
+.Spaceballs
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-BudMax-qt
+Spaceballs-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
