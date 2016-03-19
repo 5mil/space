@@ -199,7 +199,7 @@ MainOptionsPage::MainOptionsPage(QWidget *parent):
     proxy_ip->setEnabled(false);
     proxy_ip->setValidator(new QRegExpValidator(QRegExp("[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}"), this));
     proxy_ip->setToolTip(tr("IP address of the proxy (e.g. 127.0.0.1)"));
-    proxy_ip_label->setBuddy(proxy_ip);
+    proxy_ip_label->setBALLSdy(proxy_ip);
     proxy_hbox->addWidget(proxy_ip);
     QLabel *proxy_port_label = new QLabel(tr("&Port: "));
     proxy_hbox->addWidget(proxy_port_label);
@@ -208,7 +208,7 @@ MainOptionsPage::MainOptionsPage(QWidget *parent):
     proxy_port->setValidator(new QIntValidator(0, 65535, this));
     proxy_port->setEnabled(false);
     proxy_port->setToolTip(tr("Port of the proxy (e.g. 1234)"));
-    proxy_port_label->setBuddy(proxy_port);
+    proxy_port_label->setBALLSdy(proxy_port);
     proxy_hbox->addWidget(proxy_port);
     proxy_hbox->addStretch(1);
 
@@ -223,7 +223,7 @@ MainOptionsPage::MainOptionsPage(QWidget *parent):
     fee_hbox->addWidget(fee_label);
     fee_edit = new BitcoinAmountField();
 
-    fee_label->setBuddy(fee_edit);
+    fee_label->setBALLSdy(fee_edit);
     fee_hbox->addWidget(fee_edit);
     fee_hbox->addStretch(1);
 
@@ -276,7 +276,7 @@ DisplayOptionsPage::DisplayOptionsPage(QWidget *parent):
     unit->setModel(new BitcoinUnits(this));
     unit->setToolTip(tr("Choose the default subdivision unit to show in the interface, and when sending coins"));
 
-    unit_label->setBuddy(unit);
+    unit_label->setBALLSdy(unit);
     unit_hbox->addWidget(unit);
 
     layout->addLayout(unit_hbox);

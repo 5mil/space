@@ -31,7 +31,7 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
-     <property name="buddy">
+     <property name="BALLSdy">
       <cstring>payAmount</cstring>
      </property>
     </widget>
@@ -44,7 +44,7 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
-     <property name="buddy">
+     <property name="BALLSdy">
       <cstring>payTo</cstring>
      </property>
     </widget>
@@ -77,7 +77,7 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
-     <property name="buddy">
+     <property name="BALLSdy">
       <cstring>addAsLabel</cstring>
      </property>
     </widget>

@@ -72,7 +72,7 @@
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
               </property>
-              <property name="buddy">
+              <property name="BALLSdy">
                <cstring>lnReqAmount</cstring>
               </property>
              </widget>
@@ -102,9 +102,9 @@
                </sizepolicy>
               </property>
               <property name="text">
-               <string>BUD</string>
+               <string>BALLS</string>
               </property>
-              <property name="buddy">
+              <property name="BALLSdy">
                <cstring>lnReqAmount</cstring>
               </property>
              </widget>
@@ -123,7 +123,7 @@
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
-            <property name="buddy">
+            <property name="BALLSdy">
              <cstring>lnLabel</cstring>
             </property>
            </widget>
@@ -146,7 +146,7 @@
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
-            <property name="buddy">
+            <property name="BALLSdy">
              <cstring>lnMessage</cstring>
             </property>
            </widget>

@@ -617,7 +617,7 @@ Adresa: %4
     <message>
         <location filename="../optionsdialog.cpp" line="274"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Zvol výchozí podjednotku, která se bude zobrazovat v programu a při posílání mincí</translation>
+        <translation>Zvol výchozí podjednotku, která se BALLSe zobrazovat v programu a při posílání mincí</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="281"/>
@@ -1391,12 +1391,12 @@ p, li { white-space: pre-wrap; }
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="295"/>
         <source>Mined balance will be available in %n more blocks</source>
-        <translation><numerusform>Vytěžené mince budou použitelné po jednom bloku</numerusform><numerusform>Vytěžené mince budou použitelné po %n blocích</numerusform><numerusform>Vytěžené mince budou použitelné po %n blocích</numerusform></translation>
+        <translation><numerusform>Vytěžené mince BALLSou použitelné po jednom bloku</numerusform><numerusform>Vytěžené mince BALLSou použitelné po %n blocích</numerusform><numerusform>Vytěžené mince BALLSou použitelné po %n blocích</numerusform></translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="301"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Tento blok nedostal žádný jiný uzel a pravděpodobně nebude akceptován!</translation>
+        <translation>Tento blok nedostal žádný jiný uzel a pravděpodobně neBALLSe akceptován!</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="304"/>
@@ -1746,7 +1746,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Doba ve vteřinách, po kterou se nebudou moci nesprávně se chovající uzly znovu připojit (výchozí: 86400)</translation>
+        <translation>Doba ve vteřinách, po kterou se neBALLSou moci nesprávně se chovající uzly znovu připojit (výchozí: 86400)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
@@ -1968,7 +1968,7 @@ Možnosti SSL: (viz instrukce nastavení SSL v spaceballs Wiki)</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong spaceballs will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas.  Pokud jsou nastaveny špatně, spaceballs nebude fungovat správně.</translation>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas.  Pokud jsou nastaveny špatně, spaceballs neBALLSe fungovat správně.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

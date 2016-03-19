@@ -1385,7 +1385,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../transactiontablemodel.cpp" line="301"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nebol prijatý žiadnou inou nódou a pravdepodobne nebude akceptovaný!</translation>
+        <translation>Ten blok nebol prijatý žiadnou inou nódou a pravdepodobne neBALLSe akceptovaný!</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="304"/>
