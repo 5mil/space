@@ -15,7 +15,8 @@
 #include <string>
 #include "uint256.h"
 
-BALLZ
+#define Spaceballz_PORT  72420
+#define RPC_PORT     72421
 #define TESTNET_PORT 72422
 #define TESTNET_RPC_PORT 72423
 
