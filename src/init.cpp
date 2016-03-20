@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2013 The Spaceballs developers
+// Copyright (c) 2011-2013 The Spaceballz developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "db.h"
@@ -75,7 +75,7 @@ void Shutdown(void* parg)
         delete pwalletMain;
         CreateThread(ExitTimeout, NULL);
         Sleep(50);
-        printf("Spaceballs exiting\n\n");
+        printf("Spaceballz exiting\n\n");
         fExit = true;
 #ifndef QT_GUI
         // ensure non UI client get's exited here, but let Bitcoin-Qt reach return 0; in bitcoin.cpp
@@ -177,15 +177,15 @@ bool AppInit2(int argc, char* argv[])
     if (mapArgs.count("-?") || mapArgs.count("--help"))
     {
         string strUsage = string() +
-          _("Spaceballs version") + " " + FormatFullVersion() + "\n\n" +
+          _("Spaceballz version") + " " + FormatFullVersion() + "\n\n" +
           _("Usage:") + "\t\t\t\t\t\t\t\t\t\t\n" +
-            "  Spaceballsd [options]                   \t  " + "\n" +
-            "  Spaceballsd [options] <command> [params]\t  " + _("Send command to -server or Spaceballsd") + "\n" +
-            "  Spaceballsd [options] help              \t\t  " + _("List commands") + "\n" +
-            "  Spaceballsd [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
+            "  Spaceballzd [options]                   \t  " + "\n" +
+            "  Spaceballzd [options] <command> [params]\t  " + _("Send command to -server or Spaceballzd") + "\n" +
+            "  Spaceballzd [options] help              \t\t  " + _("List commands") + "\n" +
+            "  Spaceballzd [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
           _("Options:") + "\n" +
-            "  -conf=<file>     \t\t  " + _("Specify configuration file (default: Spaceballs.conf)") + "\n" +
-            "  -pid=<file>      \t\t  " + _("Specify pid file (default: Spaceballsd.pid)") + "\n" +
+            "  -conf=<file>     \t\t  " + _("Specify configuration file (default: Spaceballz.conf)") + "\n" +
+            "  -pid=<file>      \t\t  " + _("Specify pid file (default: Spaceballzd.pid)") + "\n" +
             "  -gen             \t\t  " + _("Generate coins") + "\n" +
             "  -gen=0           \t\t  " + _("Don't generate coins") + "\n" +
             "  -min             \t\t  " + _("Start minimized") + "\n" +
@@ -295,7 +295,7 @@ bool AppInit2(int argc, char* argv[])
 
 #ifndef QT_GUI
     for (int i = 1; i < argc; i++)
-        if (!IsSwitchChar(argv[i][0]) && !(strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Spaceballs:", 7) == 0))
+        if (!IsSwitchChar(argv[i][0]) && !(strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Spaceballz:", 7) == 0))
             fCommandLine = true;
 
     if (fCommandLine)
@@ -330,7 +330,7 @@ bool AppInit2(int argc, char* argv[])
     if (!fDebug)
         ShrinkDebugFile();
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("Spaceballs version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
+    printf("Spaceballz version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
     printf("Default data directory %s\n", GetDefaultDataDir().string().c_str());
 
     if (GetBoolArg("-loadblockindextest"))
@@ -348,7 +348,7 @@ bool AppInit2(int argc, char* argv[])
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
     {
-        ThreadSafeMessageBox(strprintf(_("Cannot obtain a lock on data directory %s.  Spaceballs is probably already running."), GetDataDir().string().c_str()), _("Spaceballs"), wxOK|wxMODAL);
+        ThreadSafeMessageBox(strprintf(_("Cannot obtain a lock on data directory %s.  Spaceballz is probably already running."), GetDataDir().string().c_str()), _("Spaceballz"), wxOK|wxMODAL);
         return false;
     }
 
@@ -357,7 +357,7 @@ bool AppInit2(int argc, char* argv[])
     // Load data files
     //
     if (fDaemon)
-        fprintf(stdout, "Spaceballs server starting\n");
+        fprintf(stdout, "Spaceballz server starting\n");
     int64 nStart;
 
     InitMessage(_("Loading addresses..."));
@@ -394,12 +394,12 @@ bool AppInit2(int argc, char* argv[])
         if (nLoadWalletRet == DB_CORRUPT)
             strErrors << _("Error loading wallet.dat: Wallet corrupted") << "\n";
         else if (nLoadWalletRet == DB_TOO_NEW)
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Spaceballs") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Spaceballz") << "\n";
         else if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart Spaceballs to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart Spaceballz to complete") << "\n";
             printf("%s", strErrors.str().c_str());
-            ThreadSafeMessageBox(strErrors.str(), _("Spaceballs"), wxOK | wxICON_ERROR | wxMODAL);
+            ThreadSafeMessageBox(strErrors.str(), _("Spaceballz"), wxOK | wxICON_ERROR | wxMODAL);
             return false;
         }
         else
@@ -471,7 +471,7 @@ bool AppInit2(int argc, char* argv[])
 
     if (!strErrors.str().empty())
     {
-        ThreadSafeMessageBox(strErrors.str(), _("Spaceballs"), wxOK | wxICON_ERROR | wxMODAL);
+        ThreadSafeMessageBox(strErrors.str(), _("Spaceballz"), wxOK | wxICON_ERROR | wxMODAL);
         return false;
     }
 
@@ -527,7 +527,7 @@ bool AppInit2(int argc, char* argv[])
         addrProxy = CService(mapArgs["-proxy"], 9050);
         if (!addrProxy.IsValid())
         {
-            ThreadSafeMessageBox(_("Invalid -proxy address"), _("Spaceballs"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Invalid -proxy address"), _("Spaceballz"), wxOK | wxMODAL);
             return false;
         }
     }
@@ -558,7 +558,7 @@ bool AppInit2(int argc, char* argv[])
         std::string strError;
         if (!BindListenPort(strError))
         {
-            ThreadSafeMessageBox(strError, _("Spaceballs"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(strError, _("Spaceballz"), wxOK | wxMODAL);
             return false;
         }
     }
@@ -578,27 +578,27 @@ bool AppInit2(int argc, char* argv[])
     {
         if (!ParseMoney(mapArgs["-paytxfee"], nTransactionFee) || nTransactionFee < MIN_TX_FEE)
         {
-            ThreadSafeMessageBox(_("Invalid amount for -paytxfee=<amount>"), _("Spaceballs"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Invalid amount for -paytxfee=<amount>"), _("Spaceballz"), wxOK | wxMODAL);
             return false;
         }
         if (nTransactionFee > 0.25 * COIN)
-            ThreadSafeMessageBox(_("Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."), _("Spaceballs"), wxOK | wxICON_EXCLAMATION | wxMODAL);
+            ThreadSafeMessageBox(_("Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."), _("Spaceballz"), wxOK | wxICON_EXCLAMATION | wxMODAL);
     }
 
-    if (mapArgs.count("-reservebalance")) // Spaceballs: reserve balance amount
+    if (mapArgs.count("-reservebalance")) // Spaceballz: reserve balance amount
     {
         int64 nReserveBalance = 0;
         if (!ParseMoney(mapArgs["-reservebalance"], nReserveBalance))
         {
-            ThreadSafeMessageBox(_("Invalid amount for -reservebalance=<amount>"), _("Spaceballs"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Invalid amount for -reservebalance=<amount>"), _("Spaceballz"), wxOK | wxMODAL);
             return false;
         }
     }
 
-    if (mapArgs.count("-checkpointkey")) // Spaceballs: checkpoint master priv key
+    if (mapArgs.count("-checkpointkey")) // Spaceballz: checkpoint master priv key
     {
         if (!Checkpoints::SetCheckpointPrivKey(GetArg("-checkpointkey", "")))
-            ThreadSafeMessageBox(_("Unable to sign checkpoint, wrong checkpointkey?\n"), _("Spaceballs"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Unable to sign checkpoint, wrong checkpointkey?\n"), _("Spaceballz"), wxOK | wxMODAL);
     }
 
     //
@@ -610,7 +610,7 @@ bool AppInit2(int argc, char* argv[])
     RandAddSeedPerfmon();
 
     if (!CreateThread(StartNode, NULL))
-        ThreadSafeMessageBox(_("Error: CreateThread(StartNode) failed"), _("Spaceballs"), wxOK | wxMODAL);
+        ThreadSafeMessageBox(_("Error: CreateThread(StartNode) failed"), _("Spaceballz"), wxOK | wxMODAL);
 
     if (fServer)
         CreateThread(ThreadRPCServer, NULL);

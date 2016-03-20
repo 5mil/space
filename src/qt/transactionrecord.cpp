@@ -43,7 +43,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
 
     if (showTransaction(wtx))
     {
-        if (wtx.IsCoinStake()) // Spaceballs: coinstake transaction
+        if (wtx.IsCoinStake()) // Spaceballz: coinstake transaction
         {
             parts.append(TransactionRecord(hash, nTime, TransactionRecord::StakeMint, "", -nDebit, wtx.GetValueOut()));
         }

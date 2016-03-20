@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Spaceballs</source>
-        <translation>O Spaceballsu</translation>
+        <source>About Spaceballz</source>
+        <translation>O Spaceballzu</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;Spaceballz&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballz&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 Spaceballs Developers
+        <source>Copyright © 2011-2013 Spaceballz Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ovo su vaše Spaceballs adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
+        <source>These are your Spaceballz addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ovo su vaše Spaceballz adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballzS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>UPOZORENJE: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE SpaceballsSE!&lt;/b&gt;
+        <translation>UPOZORENJE: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE SpaceballzSE!&lt;/b&gt;
 Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
+        <source>Spaceballz will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballzs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -285,11 +285,11 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
 </context>
 <context>
-    <name>SpaceballsGUI</name>
+    <name>SpaceballzGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>Spaceballs Wallet</source>
-        <translation>Spaceballs novčanik</translation>
+        <source>Spaceballz Wallet</source>
+        <translation>Spaceballz novčanik</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -349,8 +349,8 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a Spaceballs address</source>
-        <translation>Slanje novca na Spaceballs adresu</translation>
+        <source>Send coins to a Spaceballz address</source>
+        <translation>Slanje novca na Spaceballz adresu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -379,8 +379,8 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about Spaceballs</source>
-        <translation>Prikaži informacije o Spaceballsu</translation>
+        <source>Show information about Spaceballz</source>
+        <translation>Prikaži informacije o Spaceballzu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for Spaceballs</source>
-        <translation>Promijeni postavke konfiguracije za Spaceballs</translation>
+        <source>Modify configuration options for Spaceballz</source>
+        <translation>Promijeni postavke konfiguracije za Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;Spaceballs</source>
-        <translation>Otvori &amp;Spaceballs</translation>
+        <source>Open &amp;Spaceballz</source>
+        <translation>Otvori &amp;Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the Spaceballs window</source>
-        <translation>Prikaži Spaceballs prozor</translation>
+        <source>Show the Spaceballz window</source>
+        <translation>Prikaži Spaceballz prozor</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,13 +484,13 @@ Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>Spaceballs-qt</source>
-        <translation>Spaceballs-qt</translation>
+        <source>Spaceballz-qt</source>
+        <translation>Spaceballz-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to Spaceballs network</source>
-        <translation><numerusform>%n aktivna veza na Spaceballs mrežu</numerusform><numerusform>%n aktivne veze na Spaceballs mrežu</numerusform><numerusform>%n aktivnih veza na Spaceballs mrežu</numerusform></translation>
+        <source>%n active connection(s) to Spaceballz network</source>
+        <translation><numerusform>%n aktivna veza na Spaceballz mrežu</numerusform><numerusform>%n aktivne veze na Spaceballz mrežu</numerusform><numerusform>%n aktivnih veza na Spaceballz mrežu</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -611,7 +611,7 @@ Adresa:%4
     <message>
         <location filename="../optionsdialog.cpp" line="274"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Izaberite željeni najmanji dio Spaceballsa koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio Spaceballza koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="281"/>
@@ -673,8 +673,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana Spaceballs adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballz address.</source>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana Spaceballz adresa.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -691,13 +691,13 @@ Adresa:%4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start Spaceballs on window system startup</source>
-        <translation>&amp;Pokreni Spaceballs kod pokretanja sustava</translation>
+        <source>&amp;Start Spaceballz on window system startup</source>
+        <translation>&amp;Pokreni Spaceballz kod pokretanja sustava</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start Spaceballs after the computer is turned on</source>
-        <translation>Automatski pokreni Spaceballs kad se uključi računalo</translation>
+        <source>Automatically start Spaceballz after the computer is turned on</source>
+        <translation>Automatski pokreni Spaceballz kad se uključi računalo</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -716,8 +716,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Spaceballs klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Spaceballz client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Spaceballz klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -1177,8 +1177,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite Spaceballs adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Spaceballz address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite Spaceballz adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1626,11 +1626,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>Spaceballs-core</name>
+    <name>Spaceballz-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>Spaceballs version</source>
-        <translation>Spaceballs verzija</translation>
+        <source>Spaceballz version</source>
+        <translation>Spaceballz verzija</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1639,8 +1639,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or Spaceballsd</source>
-        <translation>Pošalji komandu usluzi -server ili Spaceballsd</translation>
+        <source>Send command to -server or Spaceballzd</source>
+        <translation>Pošalji komandu usluzi -server ili Spaceballzd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1659,13 +1659,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: Spaceballs.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: Spaceballs.conf)</translation>
+        <source>Specify configuration file (default: Spaceballz.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: Spaceballz.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: Spaceballsd.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: Spaceballs.pid)</translation>
+        <source>Specify pid file (default: Spaceballzd.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: Spaceballz.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1840,8 +1840,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
-        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi Spaceballs Wiki)</translation>
+SSL options: (see the Spaceballz Wiki for SSL setup instructions)</source>
+        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi Spaceballz Wiki)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1870,8 +1870,8 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
-        <translation>Program ne može pristupiti direktoriju s datotekama %s. Spaceballs program je vjerojatno već pokrenut.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Spaceballz is probably already running.</source>
+        <translation>Program ne može pristupiti direktoriju s datotekama %s. Spaceballz program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1895,12 +1895,12 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
+        <source>Wallet needed to be rewritten: restart Spaceballz to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1955,13 +1955,13 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
-        <translation>Program ne može koristiti port %d na ovom računalu.  Spaceballs program je vjerojatno već pokrenut.</translation>
+        <source>Unable to bind to port %d on this computer.  Spaceballz is probably already running.</source>
+        <translation>Program ne može koristiti port %d na ovom računalu.  Spaceballz program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
-        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, Spaceballs neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballz will not work properly.</source>
+        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, Spaceballz neće raditi ispravno.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

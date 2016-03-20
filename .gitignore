@@ -1,7 +1,7 @@
 src/*.exe
-src/Spaceballs
-src/Spaceballsd
-src/test_Spaceballs
+src/Spaceballz
+src/Spaceballzd
+src/test_Spaceballz
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.Spaceballs
+.Spaceballz
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-Spaceballs-qt
+Spaceballz-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

@@ -1,7 +1,7 @@
-Spaceballs
+Spaceballz
 
-Copyright (c) 2011-2016 Peercoin (Spaceballs) Developers
-Copyright (c) 2016-2016 Spaceballs Developers
+Copyright (c) 2011-2016 Peercoin (Spaceballz) Developers
+Copyright (c) 2016-2016 Spaceballz Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Spaceballs(BALLS) is a free open source project derived from Bitcoin, with
+Spaceballz(BALLS) is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -19,28 +19,28 @@ help further advance the field of crypto-currency.
 
 Setup
 -----
-After completing windows setup then run Spaceballs-qt.
-Alternatively you can run windows command line (cmd) in Spaceballs program dir.
+After completing windows setup then run Spaceballz-qt.
+Alternatively you can run windows command line (cmd) in Spaceballz program dir.
   cd daemon
-  Spaceballsd
-You would need to create a configuration file Spaceballs.conf in the default
-wallet directory. Grant access to Spaceballsd/Spaceballs-qt in anti-virus and firewall
+  Spaceballzd
+You would need to create a configuration file Spaceballz.conf in the default
+wallet directory. Grant access to Spaceballzd/Spaceballz-qt in anti-virus and firewall
 applications if necessary.
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 9901 (TCP) to your computer so you can receive
-incoming connections.  Spaceballs works without incoming connections,
-but allowing incoming connections helps the Spaceballs network.
+incoming connections.  Spaceballz works without incoming connections,
+but allowing incoming connections helps the Spaceballz network.
 
 
 Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.4, first backup wallet in qt menu or by command line
-Spaceballsd backupwallet <destination_backup_file>
-Then shutdown Spaceballsd by
-Spaceballsd stop
+Spaceballzd backupwallet <destination_backup_file>
+Then shutdown Spaceballzd by
+Spaceballzd stop
 Uninstall v0.4 client, download and install v0.5 client.
 If upgrade is performed after or close to upgrade deadline, blockchain
 re-download is required.
@@ -50,7 +50,7 @@ See the documentation/wiki at github:
   http://github.com/
 for help and more information.
 
-based on Spaceballs and Bitcoin.
+based on Spaceballz and Bitcoin.
 
 ------------------
 Bitcoin 0.6.3 BETA

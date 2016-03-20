@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2012-2013 The Spaceballs developers
+// Copyright (c) 2012-2013 The Spaceballz developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -27,17 +27,17 @@ extern const std::string CLIENT_NAME;
 extern const std::string CLIENT_BUILD;
 extern const std::string CLIENT_DATE;
 
-// Spaceballs version - intended for display purpose ONLY
-#define Spaceballs_VERSION_MAJOR       0
-#define Spaceballs_VERSION_MINOR       5
-#define Spaceballs_VERSION_REVISION    2
-#define Spaceballs_VERSION_BUILD       0
+// Spaceballz version - intended for display purpose ONLY
+#define Spaceballz_VERSION_MAJOR       0
+#define Spaceballz_VERSION_MINOR       5
+#define Spaceballz_VERSION_REVISION    2
+#define Spaceballz_VERSION_BUILD       0
 
-static const int Spaceballs_VERSION =
-                           1000000 * Spaceballs_VERSION_MAJOR
-                         +   10000 * Spaceballs_VERSION_MINOR
-                         +     100 * Spaceballs_VERSION_REVISION
-                         +       1 * Spaceballs_VERSION_BUILD;
+static const int Spaceballz_VERSION =
+                           1000000 * Spaceballz_VERSION_MAJOR
+                         +   10000 * Spaceballz_VERSION_MINOR
+                         +     100 * Spaceballz_VERSION_REVISION
+                         +       1 * Spaceballz_VERSION_BUILD;
 
 //
 // network protocol versioning

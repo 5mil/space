@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2012 The Spaceballs developers
+// Copyright (c) 2011-2012 The Spaceballz developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -777,7 +777,7 @@ void FormatException(char* pszMessage, std::exception* pex, const char* pszThrea
     pszModule[0] = '\0';
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Spaceballs";
+    const char* pszModule = "Spaceballz";
 #endif
     if (pex)
         snprintf(pszMessage, 1000,
@@ -852,12 +852,12 @@ boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
 
-    // Windows: C:\Documents and Settings\username\Application Data\Spaceballs
-    // Mac: ~/Library/Application Support/Spaceballs
-    // Unix: ~/.Spaceballs
+    // Windows: C:\Documents and Settings\username\Application Data\Spaceballz
+    // Mac: ~/Library/Application Support/Spaceballz
+    // Unix: ~/.Spaceballz
 #ifdef WIN32
     // Windows
-    return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "Spaceballs";
+    return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "Spaceballz";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -869,10 +869,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Spaceballs";
+    return pathRet / "Spaceballz";
 #else
     // Unix
-    return pathRet / ".Spaceballs";
+    return pathRet / ".Spaceballz";
 #endif
 #endif
 }
@@ -916,7 +916,7 @@ boost::filesystem::path GetConfigFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathConfigFile(GetArg("-conf", "Spaceballs.conf"));
+    fs::path pathConfigFile(GetArg("-conf", "Spaceballz.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -952,7 +952,7 @@ boost::filesystem::path GetPidFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathPidFile(GetArg("-pid", "Spaceballsd.pid"));
+    fs::path pathPidFile(GetArg("-pid", "Spaceballzd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1071,10 +1071,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong Spaceballs will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong Spaceballz will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    ThreadSafeMessageBox(strMessage+" ", string("Spaceballs"), wxOK | wxICON_EXCLAMATION);
+                    ThreadSafeMessageBox(strMessage+" ", string("Spaceballz"), wxOK | wxICON_EXCLAMATION);
                 }
             }
         }
@@ -1116,7 +1116,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
     if (!comments.empty())
         ss << "(" << boost::algorithm::join(comments, "; ") << ")";
     ss << "/";
-    ss << "Spaceballs:" << FormatVersion(Spaceballs_VERSION);
+    ss << "Spaceballz:" << FormatVersion(Spaceballz_VERSION);
     ss << "(" << CLIENT_BUILD << ")/";
     return ss.str();
 }
@@ -1124,7 +1124,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return MyGetSpecialFolderPath(CSIDL_STARTUP, true) / "Spaceballs.lnk";
+    return MyGetSpecialFolderPath(CSIDL_STARTUP, true) / "Spaceballz.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -1205,7 +1205,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "Spaceballs.desktop";
+    return GetAutostartDir() / "Spaceballz.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -1246,7 +1246,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Spaceballs\n";
+        optionFile << "Name=Spaceballz\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

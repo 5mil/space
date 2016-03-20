@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Spaceballs</source>
+        <source>About Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; Bertsio</translation>
+        <source>&lt;b&gt;Spaceballz&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballz&lt;/b&gt; Bertsio</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 Spaceballs Developers
+        <source>Copyright © 2011-2013 Spaceballz Developers
 
 This is experimental software.
 
@@ -33,7 +33,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Spaceballz addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -220,7 +220,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballzS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished"/>
     </message>
@@ -232,7 +232,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
+        <source>Spaceballz will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballzs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -284,10 +284,10 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
 </context>
 <context>
-    <name>SpaceballsGUI</name>
+    <name>SpaceballzGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>Spaceballs Wallet</source>
+        <source>Spaceballz Wallet</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -348,7 +348,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a Spaceballs address</source>
+        <source>Send coins to a Spaceballz address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -378,7 +378,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about Spaceballs</source>
+        <source>Show information about Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -398,17 +398,17 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for Spaceballs</source>
+        <source>Modify configuration options for Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;Spaceballs</source>
+        <source>Open &amp;Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the Spaceballs window</source>
+        <source>Show the Spaceballz window</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -483,12 +483,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>Spaceballs-qt</source>
+        <source>Spaceballz-qt</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to Spaceballs network</source>
+        <source>%n active connection(s) to Spaceballz network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -668,7 +668,7 @@ Address: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballz address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -686,12 +686,12 @@ Address: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start Spaceballs on window system startup</source>
+        <source>&amp;Start Spaceballz on window system startup</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start Spaceballs after the computer is turned on</source>
+        <source>Automatically start Spaceballz after the computer is turned on</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -711,7 +711,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Spaceballz client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1168,7 +1168,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Spaceballz address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1617,10 +1617,10 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>Spaceballs-core</name>
+    <name>Spaceballz-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>Spaceballs version</source>
+        <source>Spaceballz version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1630,7 +1630,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or Spaceballsd</source>
+        <source>Send command to -server or Spaceballzd</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1650,12 +1650,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: Spaceballs.conf)</source>
+        <source>Specify configuration file (default: Spaceballz.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: Spaceballsd.pid)</source>
+        <source>Specify pid file (default: Spaceballzd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1831,7 +1831,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
+SSL options: (see the Spaceballz Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1861,7 +1861,7 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Spaceballz is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1886,12 +1886,12 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
+        <source>Wallet needed to be rewritten: restart Spaceballz to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1946,12 +1946,12 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  Spaceballz is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballz will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>

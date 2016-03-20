@@ -49,9 +49,9 @@ const std::string CLIENT_NAME("Satoshi");
 
 #ifndef BUILD_DESC
 #    ifdef GIT_COMMIT_ID
-#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(Spaceballs_VERSION_MAJOR, Spaceballs_VERSION_MINOR, Spaceballs_VERSION_REVISION, Spaceballs_VERSION_BUILD, GIT_COMMIT_ID)
+#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(Spaceballz_VERSION_MAJOR, Spaceballz_VERSION_MINOR, Spaceballz_VERSION_REVISION, Spaceballz_VERSION_BUILD, GIT_COMMIT_ID)
 #    else
-#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(Spaceballs_VERSION_MAJOR, Spaceballs_VERSION_MINOR, Spaceballs_VERSION_REVISION, Spaceballs_VERSION_BUILD)
+#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(Spaceballz_VERSION_MAJOR, Spaceballz_VERSION_MINOR, Spaceballz_VERSION_REVISION, Spaceballz_VERSION_BUILD)
 #    endif
 #endif
 

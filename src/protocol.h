@@ -15,8 +15,7 @@
 #include <string>
 #include "uint256.h"
 
-#define Spaceballs_PORT  72420
-#define RPC_PORT     72421
+BALLZ
 #define TESTNET_PORT 72422
 #define TESTNET_RPC_PORT 72423
 
@@ -26,7 +25,7 @@ void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent = false);
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? TESTNET_PORT : Spaceballs_PORT;
+    return testnet ? TESTNET_PORT : Spaceballz_PORT;
 }
 
 

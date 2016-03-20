@@ -4,17 +4,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Spaceballs</source>
-        <translation>A Spaceballsról</translation>
+        <source>About Spaceballz</source>
+        <translation>A Spaceballzról</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; verzió</translation>
+        <source>&lt;b&gt;Spaceballz&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballz&lt;/b&gt; verzió</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 Spaceballs Developers
+        <source>Copyright © 2011-2013 Spaceballz Developers
 
 This is experimental software.
 
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a Spaceballs-címekkel fogadhatod kifizetéseket.   Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <source>These are your Spaceballz addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ezekkel a Spaceballz-címekkel fogadhatod kifizetéseket.   Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -220,9 +220,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballzS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>FIGYELEM: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES SpaceballsODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;
+        <translation>FIGYELEM: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES SpaceballzODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;
 Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
+        <source>Spaceballz will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballzs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -285,11 +285,11 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
 </context>
 <context>
-    <name>SpaceballsGUI</name>
+    <name>SpaceballzGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>Spaceballs Wallet</source>
-        <translation>Spaceballs-tárca</translation>
+        <source>Spaceballz Wallet</source>
+        <translation>Spaceballz-tárca</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -349,7 +349,7 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a Spaceballs address</source>
+        <source>Send coins to a Spaceballz address</source>
         <translation>Érmék küldése megadott címre</translation>
     </message>
     <message>
@@ -379,8 +379,8 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about Spaceballs</source>
-        <translation>Információk a Spaceballsról</translation>
+        <source>Show information about Spaceballz</source>
+        <translation>Információk a Spaceballzról</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -399,18 +399,18 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for Spaceballs</source>
-        <translation>Spaceballs konfigurációs opciók</translation>
+        <source>Modify configuration options for Spaceballz</source>
+        <translation>Spaceballz konfigurációs opciók</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;Spaceballs</source>
-        <translation>A &amp;Spaceballs megnyitása</translation>
+        <source>Open &amp;Spaceballz</source>
+        <translation>A &amp;Spaceballz megnyitása</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the Spaceballs window</source>
-        <translation>A Spaceballs-ablak mutatása</translation>
+        <source>Show the Spaceballz window</source>
+        <translation>A Spaceballz-ablak mutatása</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -484,13 +484,13 @@ Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>Spaceballs-qt</source>
-        <translation>Spaceballs-qt</translation>
+        <source>Spaceballz-qt</source>
+        <translation>Spaceballz-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to Spaceballs network</source>
-        <translation><numerusform>%n aktív kapcsolat a Spaceballs-hálózattal</numerusform><numerusform>%n aktív kapcsolat a Spaceballs-hálózattal</numerusform></translation>
+        <source>%n active connection(s) to Spaceballz network</source>
+        <translation><numerusform>%n aktív kapcsolat a Spaceballz-hálózattal</numerusform><numerusform>%n aktív kapcsolat a Spaceballz-hálózattal</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -673,8 +673,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes Spaceballs-cím.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballz address.</source>
+        <translation>A megadott &quot;%1&quot; cím nem egy érvényes Spaceballz-cím.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -691,13 +691,13 @@ Cím: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start Spaceballs on window system startup</source>
+        <source>&amp;Start Spaceballz on window system startup</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start Spaceballs after the computer is turned on</source>
-        <translation>Induljon el a Spaceballs a számítógép bekapcsolásakor</translation>
+        <source>Automatically start Spaceballz after the computer is turned on</source>
+        <translation>Induljon el a Spaceballz a számítógép bekapcsolásakor</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -716,8 +716,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Spaceballs-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Spaceballz client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Spaceballz-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -737,7 +737,7 @@ Cím: %4
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>SOCKS4 proxyn keresztüli csatlakozás a Spaceballs hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <translation>SOCKS4 proxyn keresztüli csatlakozás a Spaceballz hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1094,7 +1094,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsdialog.cpp" line="133"/>
         <source>Amount exceeds your balance</source>
-        <translation>Nincs ennyi Spaceballs az egyenlegeden.</translation>
+        <translation>Nincs ennyi Spaceballz az egyenlegeden.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="138"/>
@@ -1178,8 +1178,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adj meg egy Spaceballs-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
+        <source>Enter a Spaceballz address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adj meg egy Spaceballz-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
     </message>
 </context>
 <context>
@@ -1627,11 +1627,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>Spaceballs-core</name>
+    <name>Spaceballz-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>Spaceballs version</source>
-        <translation>Spaceballs verzió</translation>
+        <source>Spaceballz version</source>
+        <translation>Spaceballz verzió</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1640,8 +1640,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or Spaceballsd</source>
-        <translation>Parancs küldése a -serverhez vagy a Spaceballsdhez
+        <source>Send command to -server or Spaceballzd</source>
+        <translation>Parancs küldése a -serverhez vagy a Spaceballzdhez
 </translation>
     </message>
     <message>
@@ -1664,14 +1664,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: Spaceballs.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: Spaceballs.conf)
+        <source>Specify configuration file (default: Spaceballz.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: Spaceballz.conf)
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: Spaceballsd.pid)</source>
-        <translation>pid-fájl (alapértelmezett: Spaceballsd.pid)
+        <source>Specify pid file (default: Spaceballzd.pid)</source>
+        <translation>pid-fájl (alapértelmezett: Spaceballzd.pid)
 </translation>
     </message>
     <message>
@@ -1683,7 +1683,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Spaceballs-generálás leállítása
+        <translation>Spaceballz-generálás leállítása
 </translation>
     </message>
     <message>
@@ -1869,9 +1869,9 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
+SSL options: (see the Spaceballz Wiki for SSL setup instructions)</source>
         <translation>
-SSL-opciók: (lásd a Spaceballs Wiki SSL-beállítási instrukcióit)
+SSL-opciók: (lásd a Spaceballz Wiki SSL-beállítási instrukcióit)
 </translation>
     </message>
     <message>
@@ -1906,8 +1906,8 @@ SSL-opciók: (lásd a Spaceballs Wiki SSL-beállítási instrukcióit)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
-        <translation>Az %s adatkönyvtár nem zárható.  A Spaceballs valószínűleg fut már.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Spaceballz is probably already running.</source>
+        <translation>Az %s adatkönyvtár nem zárható.  A Spaceballz valószínűleg fut már.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1931,12 +1931,12 @@ SSL-opciók: (lásd a Spaceballs Wiki SSL-beállítási instrukcióit)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballz</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
+        <source>Wallet needed to be rewritten: restart Spaceballz to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1991,13 +1991,13 @@ SSL-opciók: (lásd a Spaceballs Wiki SSL-beállítási instrukcióit)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
-        <translation>A %d port nem elérhető ezen a gépen.  A Spaceballs valószínűleg fut már.</translation>
+        <source>Unable to bind to port %d on this computer.  Spaceballz is probably already running.</source>
+        <translation>A %d port nem elérhető ezen a gépen.  A Spaceballz valószínűleg fut már.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
-        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Spaceballs nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballz will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Spaceballz nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

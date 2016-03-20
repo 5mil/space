@@ -1,9 +1,9 @@
 /*
- * Qt4 Spaceballs GUI.
+ * Qt4 Spaceballz GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The Spaceballs Developers 2011-2013
+ * The Spaceballz Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -71,9 +71,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("Spaceballs (BALLS) Wallet"));
+    setWindowTitle(tr("Spaceballz (BALLS) Wallet"));
 #ifndef Q_WS_MAC
-    setWindowIcon(QIcon(":icons/Spaceballs"));
+    setWindowIcon(QIcon(":icons/Spaceballz"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -204,7 +204,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Spaceballs address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a Spaceballz address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -233,17 +233,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/Spaceballs"), tr("&About %1").arg(qApp->applicationName()), this);
-    aboutAction->setToolTip(tr("Show information about Spaceballs"));
+    aboutAction = new QAction(QIcon(":/icons/Spaceballz"), tr("&About %1").arg(qApp->applicationName()), this);
+    aboutAction->setToolTip(tr("Show information about Spaceballz"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Spaceballs"));
+    optionsAction->setToolTip(tr("Modify configuration options for Spaceballz"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/Spaceballs"), tr("Show/Hide &Spaceballs"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the Spaceballs window"));
+    toggleHideAction = new QAction(QIcon(":/icons/Spaceballz"), tr("Show/Hide &Spaceballz"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the Spaceballz window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet"), this);
@@ -327,9 +327,9 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_WS_MAC
-            setWindowIcon(QIcon(":icons/Spaceballs_testnet"));
+            setWindowIcon(QIcon(":icons/Spaceballz_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/Spaceballs_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/Spaceballz_testnet"));
 #endif
             if(trayIcon)
             {
@@ -388,7 +388,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Spaceballs client"));
+    trayIcon->setToolTip(tr("Spaceballz client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -415,7 +415,7 @@ void BitcoinGUI::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 #endif
 
-    notificator = new Notificator(tr("Spaceballs-qt"), trayIcon);
+    notificator = new Notificator(tr("Spaceballz-qt"), trayIcon);
 }
 
 #ifndef Q_WS_MAC
@@ -479,7 +479,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Spaceballs network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Spaceballz network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

@@ -4,25 +4,25 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Spaceballs</source>
-        <translation>Over Spaceballs
+        <source>About Spaceballz</source>
+        <translation>Over Spaceballz
 </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Spaceballz&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballz&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 Spaceballs Developers
+        <source>Copyright © 2011-2013 Spaceballz Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Copyright © 2011-2013 Spaceballs Ontwikkelaars
+        <translation>Copyright © 2011-2013 Spaceballz Ontwikkelaars
 
 Dit is experimentele software.
 
@@ -40,8 +40,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Spaceballs-adressen om betalingen te ontvangen. U kunt er voor kiezen om een adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your Spaceballz addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw Spaceballz-adressen om betalingen te ontvangen. U kunt er voor kiezen om een adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -227,9 +227,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballzS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>WAARSCHUWING: Wanneer uw portemonnee wordt versleuteld en u verliest uw wachtwoord, dan verliest u&lt;b&gt;AL UW SpaceballsS&lt;/b&gt;!
+        <translation>WAARSCHUWING: Wanneer uw portemonnee wordt versleuteld en u verliest uw wachtwoord, dan verliest u&lt;b&gt;AL UW SpaceballzS&lt;/b&gt;!
 Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
@@ -240,8 +240,8 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
-        <translation>Spaceballs zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw Spaceballss stelen.</translation>
+        <source>Spaceballz will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballzs from being stolen by malware infecting your computer.</source>
+        <translation>Spaceballz zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw Spaceballzs stelen.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -292,11 +292,11 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
 </context>
 <context>
-    <name>SpaceballsGUI</name>
+    <name>SpaceballzGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>Spaceballs Wallet</source>
-        <translation>Spaceballs-portemonnee</translation>
+        <source>Spaceballz Wallet</source>
+        <translation>Spaceballz-portemonnee</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -356,8 +356,8 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a Spaceballs address</source>
-        <translation>Verstuur munten naar een Spaceballs-adres</translation>
+        <source>Send coins to a Spaceballz address</source>
+        <translation>Verstuur munten naar een Spaceballz-adres</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -386,8 +386,8 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about Spaceballs</source>
-        <translation>Laat informatie zien over Spaceballs</translation>
+        <source>Show information about Spaceballz</source>
+        <translation>Laat informatie zien over Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -406,18 +406,18 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for Spaceballs</source>
-        <translation>Wijzig instellingen van Spaceballs</translation>
+        <source>Modify configuration options for Spaceballz</source>
+        <translation>Wijzig instellingen van Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;Spaceballs</source>
-        <translation>Open &amp;Spaceballs</translation>
+        <source>Open &amp;Spaceballz</source>
+        <translation>Open &amp;Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the Spaceballs window</source>
-        <translation>Toon Spaceballs-venster </translation>
+        <source>Show the Spaceballz window</source>
+        <translation>Toon Spaceballz-venster </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -491,13 +491,13 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>Spaceballs-qt</source>
-        <translation>Spaceballs-qt</translation>
+        <source>Spaceballz-qt</source>
+        <translation>Spaceballz-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to Spaceballs network</source>
-        <translation><numerusform>%n actieve connectie naar Spaceballsnetwerk</numerusform><numerusform>%n actieve connecties naar Spaceballsnetwerk</numerusform></translation>
+        <source>%n active connection(s) to Spaceballz network</source>
+        <translation><numerusform>%n actieve connectie naar Spaceballznetwerk</numerusform><numerusform>%n actieve connecties naar Spaceballznetwerk</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -680,8 +680,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Spaceballsadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballz address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Spaceballzadres</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -698,13 +698,13 @@ Adres: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start Spaceballs on window system startup</source>
-        <translation>Start &amp;Spaceballs wanneer het systeem opstart</translation>
+        <source>&amp;Start Spaceballz on window system startup</source>
+        <translation>Start &amp;Spaceballz wanneer het systeem opstart</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start Spaceballs after the computer is turned on</source>
-        <translation>Start Spaceballs automatisch wanneer de computer wordt aangezet</translation>
+        <source>Automatically start Spaceballz after the computer is turned on</source>
+        <translation>Start Spaceballz automatisch wanneer de computer wordt aangezet</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -723,8 +723,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Spaceballs-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt.</translation>
+        <source>Automatically open the Spaceballz client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Spaceballz-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -744,7 +744,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Verbind met het Spaceballs-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
+        <translation>Verbind met het Spaceballz-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1184,8 +1184,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Spaceballsadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Spaceballz address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Spaceballzadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1633,11 +1633,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>Spaceballs-core</name>
+    <name>Spaceballz-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>Spaceballs version</source>
-        <translation>Spaceballsversie</translation>
+        <source>Spaceballz version</source>
+        <translation>Spaceballzversie</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1646,8 +1646,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or Spaceballsd</source>
-        <translation>Stuur commando naar -server of Spaceballsd
+        <source>Send command to -server or Spaceballzd</source>
+        <translation>Stuur commando naar -server of Spaceballzd
 </translation>
     </message>
     <message>
@@ -1670,14 +1670,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: Spaceballs.conf)</source>
-        <translation>Specifieer configuratiebestand (standaard: Spaceballs.conf)
+        <source>Specify configuration file (default: Spaceballz.conf)</source>
+        <translation>Specifieer configuratiebestand (standaard: Spaceballz.conf)
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: Spaceballsd.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: Spaceballsd.pid)
+        <source>Specify pid file (default: Spaceballzd.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: Spaceballzd.pid)
 </translation>
     </message>
     <message>
@@ -1874,9 +1874,9 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
+SSL options: (see the Spaceballz Wiki for SSL setup instructions)</source>
         <translation>
-SSL opties: (zie de Spaceballs wiki voor SSL instructies)
+SSL opties: (zie de Spaceballz wiki voor SSL instructies)
 </translation>
     </message>
     <message>
@@ -1910,8 +1910,8 @@ SSL opties: (zie de Spaceballs wiki voor SSL instructies)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
-        <translation>Kan geen lock op de gegevensdirectory %s verkrijgen. Spaceballs draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Spaceballz is probably already running.</source>
+        <translation>Kan geen lock op de gegevensdirectory %s verkrijgen. Spaceballz draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1935,13 +1935,13 @@ SSL opties: (zie de Spaceballs wiki voor SSL instructies)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Spaceballs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballz</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Spaceballs om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Spaceballz to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Spaceballz om te voltooien</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1995,13 +1995,13 @@ SSL opties: (zie de Spaceballs wiki voor SSL instructies)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
-        <translation>Kan niet binden aan poort %d op deze computer. Spaceballs draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to port %d on this computer.  Spaceballz is probably already running.</source>
+        <translation>Kan niet binden aan poort %d op deze computer. Spaceballz draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Spaceballs niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballz will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Spaceballz niet correct werken.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

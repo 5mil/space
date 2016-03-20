@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Spaceballs</source>
-        <translation>Apie Spaceballsą</translation>
+        <source>About Spaceballz</source>
+        <translation>Apie Spaceballzą</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Spaceballs&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Spaceballs&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Spaceballz&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Spaceballz&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 Spaceballs Developers
+        <source>Copyright © 2011-2013 Spaceballz Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Autorystės teisės© 2011-2013 Spaceballs Developers
+        <translation>Autorystės teisės© 2011-2013 Spaceballz Developers
 DĖMESIO: programa eksperimentinė!
 
 Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license.txt arba dokumente pagal nuorodą: http://www.opensource.org/licenses/mit-license.php.
@@ -39,7 +39,7 @@ Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Spaceballs addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Spaceballz addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Čia yra Jūsų adresai skirti mokėjimams gauti.  Jūs galite skirtingiems žmonėms duoti skirtingus adresus. Tai Jums palengvins kontroliuoti mokėjimus bei padidins anonimiškumą.
     </translation>
     </message>
@@ -227,7 +227,7 @@ Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballsS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SpaceballzS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>ĮSPĖJIMAS: Jei užšifruosite savo piniginę ir prarasite savo slaptažodį, Jūs &lt;b&gt; PRARASITE VISUS SAVO BITKOINUS, &lt;/b&gt;!
 Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
@@ -240,8 +240,8 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Spaceballs will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballss from being stolen by malware infecting your computer.</source>
-        <translation>Spaceballs dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti Spaceballsų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Spaceballz will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Spaceballzs from being stolen by malware infecting your computer.</source>
+        <translation>Spaceballz dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti Spaceballzų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -292,10 +292,10 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
 </context>
 <context>
-    <name>SpaceballsGUI</name>
+    <name>SpaceballzGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>Spaceballs Wallet</source>
+        <source>Spaceballz Wallet</source>
         <translation>Bitkoinų piniginė</translation>
     </message>
     <message>
@@ -356,7 +356,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a Spaceballs address</source>
+        <source>Send coins to a Spaceballz address</source>
         <translation>Siųsti monetas bitkoinų adresu</translation>
     </message>
     <message>
@@ -386,7 +386,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about Spaceballs</source>
+        <source>Show information about Spaceballz</source>
         <translation>Rodyti informaciją apie Bitkoiną</translation>
     </message>
     <message>
@@ -406,18 +406,18 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for Spaceballs</source>
-        <translation>Keisti Spaceballs konfigūracijos galimybes</translation>
+        <source>Modify configuration options for Spaceballz</source>
+        <translation>Keisti Spaceballz konfigūracijos galimybes</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;Spaceballs</source>
-        <translation>Atidaryti &amp;Spaceballs</translation>
+        <source>Open &amp;Spaceballz</source>
+        <translation>Atidaryti &amp;Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the Spaceballs window</source>
-        <translation>Rodyti Spaceballs langą</translation>
+        <source>Show the Spaceballz window</source>
+        <translation>Rodyti Spaceballz langą</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -491,13 +491,13 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>Spaceballs-qt</source>
-        <translation>Spaceballs-qt</translation>
+        <source>Spaceballz-qt</source>
+        <translation>Spaceballz-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to Spaceballs network</source>
-        <translation><numerusform>%n Spaceballs tinklo aktyvus ryšys</numerusform><numerusform>%n Spaceballs tinklo aktyvūs ryšiai</numerusform><numerusform>%n Spaceballs tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to Spaceballz network</source>
+        <translation><numerusform>%n Spaceballz tinklo aktyvus ryšys</numerusform><numerusform>%n Spaceballz tinklo aktyvūs ryšiai</numerusform><numerusform>%n Spaceballz tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -679,7 +679,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Spaceballs address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Spaceballz address.</source>
         <translation>Įvestas adresas &quot;%1&quot;nėra galiojantis bitkoinų adresas</translation>
     </message>
     <message>
@@ -697,12 +697,12 @@ Adresas: %4</translation>
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start Spaceballs on window system startup</source>
-        <translation>&amp;S Paleisti  Spaceballs programą su window sistemos paleidimu</translation>
+        <source>&amp;Start Spaceballz on window system startup</source>
+        <translation>&amp;S Paleisti  Spaceballz programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start Spaceballs after the computer is turned on</source>
+        <source>Automatically start Spaceballz after the computer is turned on</source>
         <translation>Automatiškai paleisti Bitkoin programą kai yra įjungiamas kompiuteris</translation>
     </message>
     <message>
@@ -722,8 +722,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the Spaceballs client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Spaceballs kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Spaceballz client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Spaceballz kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -1183,7 +1183,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Spaceballs address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Spaceballz address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1632,11 +1632,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>Spaceballs-core</name>
+    <name>Spaceballz-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>Spaceballs version</source>
-        <translation>Spaceballs versija</translation>
+        <source>Spaceballz version</source>
+        <translation>Spaceballz versija</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1645,8 +1645,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or Spaceballsd</source>
-        <translation>Siųsti komandą serveriui arba Spaceballsd</translation>
+        <source>Send command to -server or Spaceballzd</source>
+        <translation>Siųsti komandą serveriui arba Spaceballzd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1665,13 +1665,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: Spaceballs.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: Spaceballs.conf)</translation>
+        <source>Specify configuration file (default: Spaceballz.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: Spaceballz.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: Spaceballsd.pid)</source>
-        <translation>Nurodyti pid failą  (pagal nutylėjimą: Spaceballsd.pid)</translation>
+        <source>Specify pid file (default: Spaceballzd.pid)</source>
+        <translation>Nurodyti pid failą  (pagal nutylėjimą: Spaceballzd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1846,8 +1846,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Spaceballs Wiki for SSL setup instructions)</translation>
+SSL options: (see the Spaceballz Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Spaceballz Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1876,8 +1876,8 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  Spaceballs is probably already running.</source>
-        <translation>Negali gauti duomenų katalogo %s rakto. Spaceballs tikriausiai jau veikia.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Spaceballz is probably already running.</source>
+        <translation>Negali gauti duomenų katalogo %s rakto. Spaceballz tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1901,13 +1901,13 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballs</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Spaceballs versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Spaceballz</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Spaceballz versijos</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart Spaceballs to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Spaceballs</translation>
+        <source>Wallet needed to be rewritten: restart Spaceballz to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Spaceballz</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1961,13 +1961,13 @@ SSL options: (see the Spaceballs Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  Spaceballs is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %d. Spaceballs tikriausiai jau veikia.</translation>
+        <source>Unable to bind to port %d on this computer.  Spaceballz is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %d. Spaceballz tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballs will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Spaceballs, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Spaceballz will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Spaceballz, veiks netinkamai.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
